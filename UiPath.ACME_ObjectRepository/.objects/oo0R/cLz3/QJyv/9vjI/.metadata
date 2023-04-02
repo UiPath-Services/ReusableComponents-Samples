@@ -1,0 +1,16 @@
+﻿{
+  "Id": "9vjIpk-PyUWcg68lbK7wMg",
+  "Reference": "R-tCXHHCf02Oi2KphFNhyQ/9vjIpk-PyUWcg68lbK7wMg",
+  "ParentRef": "R-tCXHHCf02Oi2KphFNhyQ/QJyvdABGREqbiwysSXPs6w",
+  "Name": "Welcome",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2023-03-30T13:00:41.3009746Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-31T16:41:23.1047461Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

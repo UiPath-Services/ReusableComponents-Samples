@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://acme-test.uipath.com/" ContentHash="vufse-byCUKtCInjYYOGQQ" DesignTimeRectangle="487, 140, 32, 13" ElementType="Text" FriendlyName="'Home'" FullSelectorArgument="&lt;webctrl aaname='Home' tag='A' href='https://acme-test.uipath.com/home' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Home' tag='A' href='https://acme-test.uipath.com/home' type='' check:text='Home' /&gt;" ScopeSelectorArgument="&lt;html title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Home" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0sbaI6s7GvEy6Z-LvL6NBqw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5dda6420fe8b8c7f87fe0c2c866c88b4.png" xmlns="">0G7RzQjNtGkuf2BjPLk_7JQ</imageRef>
+</TargetAnchorable>

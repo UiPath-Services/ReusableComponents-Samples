@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://acme-test.uipath.com/reset-test-data" ContentHash="3TmoXyGSrU-z3zsCp0EqHw" DesignTimeRectangle="533, 426, 108, 29" ElementType="Button" FriendlyName="'Reset Test Data'" FullSelectorArgument="&lt;webctrl id='buttonRTD' tag='BUTTON' aaname='Reset Test Data' /&gt;" FuzzySelectorArgument="&lt;webctrl id='buttonRTD' tag='BUTTON' aaname='Reset Test Data' type='button' check:text='Reset Test Data' /&gt;" ScopeSelectorArgument="&lt;html title='ACME System 1 - Reset Test Data' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Reset Test Data" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='button' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0tVMVZpUDHkGBY6MeaULYrQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ac400e853f654f740b4929773c5a249b.png" xmlns="">0OXfjjK_8w0ClMuhefOZpow</imageRef>
+</TargetAnchorable>

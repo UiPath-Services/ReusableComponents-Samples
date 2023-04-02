@@ -1,0 +1,13 @@
+﻿{
+  "Id": "QaEIV4edvUiH3irtQW0zww",
+  "Reference": "R-tCXHHCf02Oi2KphFNhyQ/QaEIV4edvUiH3irtQW0zww",
+  "ParentRef": "R-tCXHHCf02Oi2KphFNhyQ/8FH5GGVHkEmY9y89ZSwI7A",
+  "Name": "Please find... Label",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2023-04-01T15:38:44.9992313Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-01T15:38:44.9992313Z"
+}

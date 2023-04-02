@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://acme-test.uipath.com/" ContentHash="sdweWZu7lUuut1CaeUwqbA" DesignTimeRectangle="721, 292, 211, 22" ElementType="Text" FriendlyName="'Reset test data'" FullSelectorArgument="&lt;webctrl aaname='Reset test data' parentid='dashmenu' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Reset test data' parentid='dashmenu' tag='A' type='' check:text='Reset test data' /&gt;" ScopeSelectorArgument="&lt;html title='ACME System 1 - Dashboard' /&gt;" SearchSteps="FuzzySelector, Image" Text="Reset test data" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0A9iH3FvVukuaWmoWh6bSKw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="35e229869b935206d5f66167b65133a1.png" xmlns="">02BzZ3cXX0ECG_l43NiRSow</imageRef>
+</TargetAnchorable>

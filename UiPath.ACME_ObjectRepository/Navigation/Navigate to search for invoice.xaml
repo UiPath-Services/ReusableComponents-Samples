@@ -1,0 +1,177 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Navigate_to_search_for_invoice" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Browser" Type="InOutArgument(ui:UiElement)">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+    <x:Property Name="TimeoutDesired" Type="InArgument(x:Int32)">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1025,1791</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Navigate_to_search_for_invoice_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="50">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Navigate_to_search_for_invoice" sap:VirtualizedContainerService.HintSize="1012,1726" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="950,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Start navigating to search for invoice&quot;]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Navigate to home page workflow" sap:VirtualizedContainerService.HintSize="950,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Navigation\Navigate to home page.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">[TimeoutDesired]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <uix:NApplicationCard DisplayName="Use Application/Browser 'Dashboard'" sap:VirtualizedContainerService.HintSize="950,1198" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[Browser]" InteractionMode="Simulate" OpenMode="Never" OutUiElement="[Browser]" ScopeGuid="19e38ad3-8c14-4c33-9c9e-f99dd9529b4e" Timeout="[TimeoutDesired]">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do - navigate to search for invoice" sap:VirtualizedContainerService.HintSize="916,1061" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NHover CursorMotionType="Instant" DisplayName="Hover 'Invoices'" sap:VirtualizedContainerService.HintSize="854,157" HoverTime="0.5" sap2010:WorkflowViewState.IdRef="NHover_1" InteractionMode="HardwareEvents" ScopeIdentifier="19e38ad3-8c14-4c33-9c9e-f99dd9529b4e" Version="V3">
+              <uix:NHover.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/home" ContentHash="fJ9GIyaLcEmHi2P7T87Fqw" DesignTimeRectangle="535, 505, 170, 39" ElementType="Button" FriendlyName="'Invoices'" FullSelectorArgument="&lt;webctrl aaname='Invoices' parentid='dashmenu' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Invoices' parentid='dashmenu' tag='BUTTON' type='button' check:text='Invoices' /&gt;" Guid="77397fa2-152b-44af-a20c-756deb953b7b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAK4AAAArCAYAAADhcbOFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMpSURBVHhe7Z1BSitBFEX/nlxAFuAC3IDzbMAFZO7cuQtwAZlHhAwEQRCcKYIgOAgE2n/6923Kl2p/FDVdlXvg0V1Vr6pLcnxponT+NMYUiMU1RWJxTZFsiPv6+trc3d0119fXzdXVVbNYLByOncRyuWxub29bJyPvxH14eGiTOZK8Xq+7EWN+n9Vq1Tw9PbUSc0zpxUVUpM3ZbcwuoYDy7p+62YtLSabSGjNGqLg4KnpxqbaUZmPGiKqu6MXlPsKYMZM6anFNMVhcUyQW1xSJxTVFYnFNkVQt7nw+34jLy8vm8fGxyzClUq240+m0OTg42Ijj4+NW4KOjIwtcMNWKi6CIiqCcqy1xNWZ5y6R6cc/OzvrbhCju/+Ql9+TkpGv9PNrXzc1N12OG2MuKy32u+ojz8/Nu1nsY+01xzfZULy7inZ6etkF7Mpn0bQWVLofFHS/Vi7tNIG+OKO7h4WGbyzHO5e2ddqzeyhe0NTfm524VuH6aH3/J0r0QkXQsN14qe1VxYyiH8xw5ccmXWBJNMpHLnBTJDhxTeTRf8kZxWS+VPo4zlu6PdeJ4+rPl9lcq1YvLi815jNls1ov0GXHTNtA3JF5sc/5RRc7l0xdhnHU0L4U96+eJ4tbEXojLMYZeYM4/I27MjX1pO61wyMa1ooiqkpCKGyWOaO+50J61tmJorRLZC3FzwScLevGjjOIr4nIuWVlbFfYnxNV1toG1FDVQvbjpx2ExkI6c7xRXgtIXJaEtkQV5rAGprEOii1T4z/DRmiVRvbjbxHeKC7p2Ohcks6qoRJXMscoyX1KDZFY+Y1xLaFz7Sc9Bsmv9ktk7cdMXWiJF8cRXxZUgucqmayokIURxgesP5QPXHxqXyGnUIC244v6NIXHNeKlW3FjZhoK/pF1cXHSzTClUK66pG4trisTimiKxuKZILK4pEotrisTimiLJiuunNZoxg5s4KnpxeXx+fOqzMWPh+fk5/3xcjOb5o666Zmzo2bgvLy9dTyIu8ERyEqi8/v4Hs2twEFn5Ip37+/uu9x/vxAWes89/EyEwN8MOx64CB3GR24TIhrjGjJ+meQPVNqMsIJQ0ewAAAABJRU5ErkJggg==" InformativeScreenshot="6dd079eebba3c4290fe913e8947d014f.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/WQXzss6B6U-HAbifTC7DtQ" ScopeSelectorArgument="&lt;html title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+              </uix:NHover.Target>
+            </uix:NHover>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Search for invoice'" sap:VirtualizedContainerService.HintSize="854,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="19e38ad3-8c14-4c33-9c9e-f99dd9529b4e" Timeout="[TimeoutDesired]">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/home" ContentHash="i5KdhbN8pk-_AwqGZTXyAg" DesignTimeRectangle="723, 512, 211, 22" ElementType="Text" FriendlyName="'Search for invoice'" FullSelectorArgument="&lt;webctrl aaname='Search for Invoice' parentid='dashmenu' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Search for Invoice' parentid='dashmenu' tag='A' type='' check:text='Search for Invoice' /&gt;" Guid="bf1ac177-7279-457c-a963-b95d99741c67" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANcAAAAaCAYAAAAkC8nfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMvSURBVHhe7ZxdThtBEITnND4H1+AcHINbcAyOwRvyKxIYgxD/AiEt+hwVKnXGDjG7MSj18Gl3unt6ZuwqBoko7e3tbTg7OxsuLi6Gl5eXEMIXuLq6Gubz+YCv2uvr62rw/PzcLQ4hfB58dHp6OuCrRoBBLQohbIf81OS0x8fHEMII4Cd81TSoBSGE7cBPT09PQ7u/v4+5QhgR/PTw8DC029vbmCuEEcFPd3d3Q7u5uYm5QhgR/MSl1a6vr2OuEEYEP3FpNf7oNaa5Tk5Ohtls9sHe3l63bmyOj49X67F+L+8cHBysavf397v5z8C5jo6OurmvwN6glws/A/zEpdWWy+Wo5kK0LjqE8i8M9jfmYj/U93KfZSpzhZ8PfuLSapeXl6OZSwL3mG4yiVk1UE3HuOY0n1uGp8zjtcTUV7cS9Azk82QOj2kOOeLCe2iO5rM3X1c3Yr2FDg8PP3rpXEI1dY7ODX4e+vTiYffgJy6ttlgsRr259KX3vvBqNImS9yoq6hCv5iBM5ZinMTWM6el19JLIK24MryNGD39fJ9xqLs3zM4LMpDrtj3hvr/45+Lv3olZx33P4HkxmLkA0fOFCAkUIEhEQXycMibcaUmOequVdvRRnrgvbUW/evbfnYN3ewHu42GvO+2t/9dx+JjeUz1Wd4noHXy/sHvzEb4SNfw0/trkciRQxVNMJ6iQwh7mKS2Qau7hAglWcuYjOa4TEWHt7Tvv2eY4LepO5iHNu1tAPltrbz7TJXF5b0Xph9+AnLq12fn4+mrkQkYtM8OUjEgTgN5dDXL8mwToDuBBVC+Q9zlx6eI1w8XtvzwE5xSveY5O5eCqv82mvqvcz/clcitfzh+/DJOaSSFwQuq16eXIyAE+JT8Lm2etZxas8T4mOuHpXfD5CrjcKPfTu8xzvsclc2r/vTTU6L3O1VzeX/8Dx8/l66u+fT9gtk5gLXEzC8xJJzUnMIIHBOvGoFqjZ1lwaq5fW0X5UU/Eem8ylPGgM9XNSXOfWuLe3Gve1wu6ZzFwh/O/EXCFMRMwVwkTEXCFMRMwVwkTEXCFMRMwVwkT8Zq7630OFELbjl7kWwzskLNrI2OLI6AAAAABJRU5ErkJggg==" InformativeScreenshot="4f17b8e3faf46fa1bf71417319115263.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/yPV-41G5I0Sfpc9giYcrNQ" ScopeSelectorArgument="&lt;html title='ACME System 1 - Dashboard' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'You may search...'" sap:VirtualizedContainerService.HintSize="854,554" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="19e38ad3-8c14-4c33-9c9e-f99dd9529b4e" Timeout="[TimeoutDesired]">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears - navigated to Invoices" sap:VirtualizedContainerService.HintSize="400,207" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="338,92" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Navigated successfully to search for invoices&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear - could not navigate to Invoices" sap:VirtualizedContainerService.HintSize="400,337" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="338,92" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Error" Message="[&quot;Could not navigate to search for invoices&quot;]" />
+                  <Throw DisplayName="Throw - SE: Could not navigate to search for invoices" Exception="[new System.Exception(&quot;Could not navigate to Search for invoices&quot;)]" sap:VirtualizedContainerService.HintSize="338,90" sap2010:WorkflowViewState.IdRef="Throw_2" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/invoices/search" ContentHash="eYZGBDrW4EqnyKUxLpCm7Q" DesignTimeRectangle="533, 182, 413, 34" ElementType="Text" FriendlyName="'You may search...'" FullSelectorArgument="&lt;webctrl aaname='You may search based on the Vendor* TaxID OR based on the Invoice Number.' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='You may search based on the Vendor* TaxID OR based on the Invoice Number.' tag='P' type='' check:text='You may search based on the Vendor&amp;apos;s TaxID OR based on the Invoice Number.' /&gt;" Guid="61367d36-f808-4979-90aa-b1ad3ec594c9" ImageBase64="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" InformativeScreenshot="88add1fd6d695047ecd95a603eaf7c9b.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/JNcj3nmmCU6qb7m-k_qlHA" ScopeSelectorArgument="&lt;html title='ACME System 1 - Search' /&gt;" SearchSteps="Selector" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="950,92" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;End navigating to search for invoice&quot;]" />
+  </Sequence>
+</Activity>

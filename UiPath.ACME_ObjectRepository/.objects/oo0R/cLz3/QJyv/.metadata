@@ -1,0 +1,15 @@
+﻿{
+  "Id": "QJyvdABGREqbiwysSXPs6w",
+  "Reference": "R-tCXHHCf02Oi2KphFNhyQ/QJyvdABGREqbiwysSXPs6w",
+  "ParentRef": "R-tCXHHCf02Oi2KphFNhyQ/cLz3bhxTIECfQFkxQ_tS_g",
+  "Name": "Dashboard",
+  "Type": "Screen",
+  "Created": "2023-03-30T12:59:56.0650317Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-30T13:08:28.182611Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "6s-YZxWAwk2OKbDAF56Zzw",
+  "Reference": "R-tCXHHCf02Oi2KphFNhyQ/6s-YZxWAwk2OKbDAF56Zzw",
+  "ParentRef": "R-tCXHHCf02Oi2KphFNhyQ/QJyvdABGREqbiwysSXPs6w",
+  "Name": "Home",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-03-30T13:00:39.3811365Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-30T13:00:39.3811365Z"
+}

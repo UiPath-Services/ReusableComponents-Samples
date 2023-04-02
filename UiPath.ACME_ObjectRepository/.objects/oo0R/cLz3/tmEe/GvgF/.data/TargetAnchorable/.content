@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="0AkF0-gUiU2LcGEuMtL0Rw" DesignTimeRectangle="226, 119, 75, 23" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='2' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='OK' check:text='unchecked' /&gt;" ScopeSelectorArgument="&lt;wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="unchecked" TextMethod="AttributeText" TextSelector="&lt;wnd /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0VYvorrABzUOM4zCuEyKHdA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e1a14ef4867791e6af151cd31d3326f7.png" xmlns="">0kLXnSIRdukS_odAkdfd56A</imageRef>
+</TargetAnchorable>

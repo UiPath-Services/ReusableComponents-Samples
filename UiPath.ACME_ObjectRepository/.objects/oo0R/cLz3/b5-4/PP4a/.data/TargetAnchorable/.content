@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://acme-test.uipath.com/invoices/search" ContentHash="RjAxPO9lWUGtJxdYDeSCtA" DesignTimeRectangle="598, 377, 124, 29" ElementType="Button" FriendlyName="'Display All Invoices'" FullSelectorArgument="&lt;webctrl id='buttonShowAll' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='buttonShowAll' tag='BUTTON' type='button' aaname='Display All Invoices' check:text='Display All Invoices' /&gt;" ScopeSelectorArgument="&lt;html title='ACME System 1 - Search' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Display All Invoices" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='button' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0OG2cMk1QXEWjBD5xTzWR4g</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="fadc34cffc69cb95f741f5ed9d99b3ca.png" xmlns="">09AW_Z-jJNUqUrJaJoSwEdg</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://acme-test.uipath.com/invoices/search-by-vendor/dfgfgrg" ContentHash="JWCIkMVmaUa5qwM3XM8KEg" DesignTimeRectangle="547, 248, 823, 17" ElementType="Text" FriendlyName="'No invoices'" FullSelectorArgument="&lt;webctrl tag='P' aaname='No invoices based on your criteria could be found.' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' aaname='No invoices based on your criteria could be found.' type='' check:text='No invoices based on your criteria could be found.' /&gt;" ScopeSelectorArgument="&lt;html title='ACME System 1 - Search Results' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="No invoices based on your criteria could be found." TextMethod="AttributeText" TextSelector="&lt;webctrl type='' tag='P' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0PVKFzTZWukOiIHvERL6frQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="9312cd97805134c464063ac59b6326a0.png" xmlns="">0mMxcMyFZokOAn9mFU7szBw</imageRef>
+</TargetAnchorable>

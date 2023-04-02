@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://acme-test.uipath.com/reset-test-data" ContentHash="g2DAvSMyKk6m3JTA0EgxOQ" DesignTimeRectangle="533, 199, 486, 22" FriendlyName="'Are you'" FullSelectorArgument="&lt;webctrl tag='H3' aaname='Are you sure you want to Reset your Test Data?' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H3' aaname='Are you sure you want to Reset your Test Data?' type='' check:text='Are you sure you want to Reset your Test Data?' /&gt;" ScopeSelectorArgument="&lt;html title='ACME System 1 - Reset Test Data' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Are you sure you want to Reset your Test Data?" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='H3' type='' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0TXj9bStXGk-xb1APruftWA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="53f649013d128d3ce8387c9652a39bfa.png" xmlns="">04-v0G_eDL0eI3_mWc0LczA</imageRef>
+</TargetAnchorable>

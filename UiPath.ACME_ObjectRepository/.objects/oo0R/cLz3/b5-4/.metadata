@@ -1,0 +1,15 @@
+﻿{
+  "Id": "b5-4itNrwEyQs-rBwaIp-A",
+  "Reference": "R-tCXHHCf02Oi2KphFNhyQ/b5-4itNrwEyQs-rBwaIp-A",
+  "ParentRef": "R-tCXHHCf02Oi2KphFNhyQ/cLz3bhxTIECfQFkxQ_tS_g",
+  "Name": "Invoices",
+  "Type": "Screen",
+  "Created": "2023-04-01T15:34:20.4702879Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-01T15:35:07.2422768Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "Id": "FVQjZcHRa0av5ISj2X6NCQ",
+  "Reference": "R-tCXHHCf02Oi2KphFNhyQ/FVQjZcHRa0av5ISj2X6NCQ",
+  "ParentRef": "R-tCXHHCf02Oi2KphFNhyQ/cLz3bhxTIECfQFkxQ_tS_g",
+  "Name": "Generic ACME Screen",
+  "Type": "Screen",
+  "Created": "2023-03-30T13:16:29.6290396Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-31T16:39:53.4706054Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

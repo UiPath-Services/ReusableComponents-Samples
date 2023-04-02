@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="328CCY6nw02M17HTv1OmjQ" DesignTimeRectangle="70, 64, 218, 15" ElementType="Text" FriendlyName="'Your Test'" FullSelectorArgument="&lt;wnd ctrlid='65535' title='Your Test Data has been successfully reset.' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='65535' title='Your Test Data has been successfully reset.' check:text='Your Test Data has been successfully reset.' /&gt;" ScopeSelectorArgument="&lt;wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Your Test Data has been successfully reset." TextMethod="AttributeText" TextSelector="&lt;wnd /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">01CB6mLoAv0mImpj3msgYyA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="c854565562cfd2c337019d0c78c2b546.png" xmlns="">0aUjkhqZS8ku1GvN4jMf9qw</imageRef>
+</TargetAnchorable>

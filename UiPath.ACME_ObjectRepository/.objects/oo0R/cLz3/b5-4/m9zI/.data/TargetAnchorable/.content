@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://acme-test.uipath.com/invoices/search" ContentHash="K35CrcxG6E23sSRhgOtpXQ" DesignTimeRectangle="533, 246, 413, 29" ElementType="InputBox" FriendlyName="'INPUT  vendorTaxID'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' id='vendorTaxID' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' id='vendorTaxID' aaname='' /&gt;" ScopeSelectorArgument="&lt;html title='ACME System 1 - Search' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="533, 225, 81, 17" ElementType="Text" FriendlyName="'Vendor TaxID:'" FullSelectorArgument="&lt;webctrl idx='1' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' aaname='Vendor TaxID:' check:text='Vendor TaxID:' /&gt;" SearchSteps="FuzzySelector, Image" Text="Vendor TaxID:" TextMethod="AttributeText" TextSelector="&lt;webctrl type='' tag='LABEL' /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">1szR-lPfcQkW-aZNyD7y87w</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0MlrEkiQV3EyT83qlg6n-jg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="60680f466a8937fa5e87568c057a48e5.png" xmlns="">0bXc3hvvAUEG_Fh8pFi0XeA</imageRef>
+</TargetAnchorable>

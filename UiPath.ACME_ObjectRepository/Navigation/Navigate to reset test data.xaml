@@ -1,0 +1,177 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Navigate_to_reset_test_data" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Browser" Type="InOutArgument(ui:UiElement)">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+    <x:Property Name="TimeoutDesired" Type="InArgument(x:Int32)">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1002,1791</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Navigate_to_reset_test_data_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="50">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Navigate_to_reset_test_data" sap:VirtualizedContainerService.HintSize="1012,1726" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="950,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Start navigating to reset test data&quot;]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Navigate to home page workflow" sap:VirtualizedContainerService.HintSize="950,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Navigation\Navigate to home page.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">[TimeoutDesired]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser 'Dashboard'" sap:VirtualizedContainerService.HintSize="950,1198" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[Browser]" InteractionMode="Simulate" OpenMode="Never" OutUiElement="[Browser]" ScopeGuid="f9195605-37d9-416a-82bd-0c3c5d0f44d7" Timeout="[Convert.ToDouble(TimeoutDesired)]">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do - navigate to reset test data" sap:VirtualizedContainerService.HintSize="916,1061" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NHover CursorMotionType="Instant" DisplayName="Hover 'User Options'" sap:VirtualizedContainerService.HintSize="854,157" HoverTime="0.5" sap2010:WorkflowViewState.IdRef="NHover_1" InteractionMode="HardwareEvents" ScopeIdentifier="f9195605-37d9-416a-82bd-0c3c5d0f44d7" Version="V3">
+              <uix:NHover.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/home" ContentHash="c_JLZIqgKE2ghmuMjF8D7Q" DesignTimeRectangle="460, 394, 200, 46" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'User Options'" FullSelectorArgument="&lt;webctrl parentid='dashmenu' tag='BUTTON' visibleinnertext='*User options*' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='dashmenu' tag='BUTTON' visibleinnertext='*User options*' type='button' class='btn btn-default btn-lg dropdown-toggle' aaname='                  User options' check:text='User options' /&gt;" Guid="8f7bcb68-6f14-44e0-9315-8194154510b5" ImageBase64="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" InformativeScreenshot="090c7f8e18fc7e0bc75b86134b149dfb.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/SaVqu1nJA0qLJwUSZtPTrA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+              </uix:NHover.Target>
+            </uix:NHover>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Reset test data'" sap:VirtualizedContainerService.HintSize="854,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f9195605-37d9-416a-82bd-0c3c5d0f44d7" Timeout="[TimeoutDesired]">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/" ContentHash="sdweWZu7lUuut1CaeUwqbA" DesignTimeRectangle="721, 292, 211, 22" ElementType="Text" FriendlyName="'Reset test data'" FullSelectorArgument="&lt;webctrl aaname='Reset test data' parentid='dashmenu' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Reset test data' parentid='dashmenu' tag='A' type='' check:text='Reset test data' /&gt;" Guid="28de42bb-66d4-4c09-afce-6af9917bef21" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANcAAAAaCAYAAAAkC8nfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJCSURBVHhe7ZzBbcJAEEVTDXXQBnVQBl1QBmVwcwVcuHLg5OghfelrWVtEYZwY/cMT65m/s+NovveWr+v1Ol4ul3EYhvF+v4cQ3gB+irlCKCDmCqGIJ3PdbrcQwhuIuUIoIuYKoYiYK4QiYq4Qioi5QiiixFzn83ncbDZP7Ha7rv63nE6nR/1ebr/fP+jlXoGeD4dDN+ccj8dxu912cw590m8vFz6LUnPx63FiDKHH3kHMFf4ji5qLQfVBZ40OfIA93t52igP1dRa0w01N5VTfY96Lx1XH++h9FIgpj9bPVxz0DuQV09+mpwufwZ/dXAyzhlF6vujgQ8rAaQ9xN4l0r95cMoNy6kfn+x6dw/laO96zdOrH97S6ds+ULqyfUnO1aMjBTQMywZRRWgMAz+in9oDqau1GYU0fqs2vcsIN4NC7fwTaZ0d9tuuWuVxYH4vcXO2NAQwiMUcmkB4YbmIyUAtx5by+cHNRq93fq+8mmTIXMdexX8+9XomR8/WcLqyfRcwFDLgGGVj7zTWFdKrZ02hIezk3F789o7S4bspc7U3lz/z6u7lpfD2nC+tnMXMBMQ1T++VnTYz8lAmlYS1Dccar5qKO66hNjv3eyyvmAn8fdKrRvifPMk27ntKF9bOouTTcijPEPIMMAAxqLw6Kgw+iYq4Fnak6GmLgHOm8F49L3zMY52sP+2UuP4O1G1Tvxt45XVg/JeYKIcRcIZQRc4VQRMwVQhExVwhFxFwhFBFzhVDEk7l6/yIqhPBzhmEYvwHyEyAW/SbQkQAAAABJRU5ErkJggg==" InformativeScreenshot="35e229869b935206d5f66167b65133a1.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/FyjgD1gUp0q40U8rDK_UUQ" ScopeSelectorArgument="&lt;html title='ACME System 1 - Dashboard' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Are you'" sap:VirtualizedContainerService.HintSize="854,554" sap2010:WorkflowViewState.IdRef="NCheckState_1" Timeout="[TimeoutDesired]">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears - Navigated successfully" sap:VirtualizedContainerService.HintSize="400,207" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="338,92" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;Navigating successfully to reset test data&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,337" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="338,92" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;Could not navigate to reset test data&quot;]" />
+                  <Throw DisplayName="Throw - SE: Could not navigate to reset test data" Exception="[new System.Exception(&quot;Could not navigate to reset test data&quot;)]" sap:VirtualizedContainerService.HintSize="338,90" sap2010:WorkflowViewState.IdRef="Throw_1" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/reset-test-data" ContentHash="g2DAvSMyKk6m3JTA0EgxOQ" DesignTimeRectangle="533, 199, 486, 22" FriendlyName="'Are you'" FullSelectorArgument="&lt;webctrl tag='H3' aaname='Are you sure you want to Reset your Test Data?' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H3' aaname='Are you sure you want to Reset your Test Data?' type='' check:text='Are you sure you want to Reset your Test Data?' /&gt;" Guid="dd77afd9-1c21-4b9d-aff8-c892f0ec8679" ImageBase64="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" InformativeScreenshot="53f649013d128d3ce8387c9652a39bfa.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/cBjIk8FvPEuRiurF-IAx7A" ScopeSelectorArgument="&lt;html title='ACME System 1 - Reset Test Data' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="950,92" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;End navigating to reset test data&quot;]" />
+  </Sequence>
+</Activity>

@@ -1,0 +1,161 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Navigate_to_work_items" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Browser" Type="InOutArgument(ui:UiElement)">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+    <x:Property Name="TimeoutDesired" Type="InArgument(x:Int32)">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1002,1594</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Navigate_to_work_items_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Navigate_to_work_items" sap:VirtualizedContainerService.HintSize="1012,1529" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="950,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Start navigating to work items&quot;]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Navigate to home page workflow" sap:VirtualizedContainerService.HintSize="950,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Navigation\Navigate to home page.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">[TimeoutDesired]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <uix:NApplicationCard DisplayName="Use Application/Browser 'Dashboard'" sap:VirtualizedContainerService.HintSize="950,1001" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[Browser]" InteractionMode="Simulate" OpenMode="Never" OutUiElement="[Browser]" ScopeGuid="2f0b254e-316c-4b83-beba-197ab3446a5d" Timeout="[TimeoutDesired]">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do - navigate to work items" sap:VirtualizedContainerService.HintSize="916,864" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Work items'" sap:VirtualizedContainerService.HintSize="854,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2f0b254e-316c-4b83-beba-197ab3446a5d" Timeout="[TimeoutDesired]">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/home" ContentHash="vbHRJpo54kuyasPPDM-_GA" DesignTimeRectangle="533, 311, 170, 39" ElementType="Button" FriendlyName="'Work items'" FullSelectorArgument="&lt;webctrl aaname='Work Items' parentid='dashmenu' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Work Items' parentid='dashmenu' tag='BUTTON' type='button' check:text='Work Items' /&gt;" Guid="f4306030-0323-42cb-bd4d-cd5820f815b8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAK4AAAArCAYAAADhcbOFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQKSURBVHhe7Z29SiRBFEb3ncyNzc2Nzc1NjU3NDQUFBREEDTQRA1FBMRBEBDHxDXo5vfPNXu9Uzw8u2134FRymq/rWreqpM2WPysyvxsWlwmJxXaosFtelyjIh7sfHR3NxcdEcHx83BwcHzd7enjG9cHh42Jyfnzfv7+8jO/+WL+Le39+3wdfX183T01Pz8vLSvL29GdMLz8/Pzc3NTSvx4+PjyNI/ZSwuOy3SImwpiTF9wQbKT/+4847FZUtmpy11NKZv2HlxVGUsLrstW3OpkzF9o11XZSwu9xGlDsYMBRxVsbimGiyuqRKLa6rE4poqsbimSiyuqZIqxOX/Jfb39ycoxZqfweDFRdrl5eVmaWlpgo2NjWKfeaDvysrKRPvW1labe2dn50s7LxTamU9sXwTGI3/pXAli8xzzvH4qgxdXwmxvb3/ZbanTvr6+3i5whMW9u7sr5hNdIq6trbWy5BdFSaJF+a64XBdzjjE/lWrE5TGf00KWQOgcnyEu72Bqy5Ii9Hd2eLC4/46qxe2CBUe00rlIlhExaGMXzmNmyRUj8ngIR26dJ1cWl7rOxb4iiitpYz7a55lH7ks9tmkMwbgxPs55KFQn7u7ubvtEToPFkyTQddugWNURTXLSznmONQfFSRbFAuPFXNRjH7UpJ8cQz2eIjTGSTfXSPLiG2IdjYoilTk7q8QVLjObVNUbXi6svqhJXxwgyL7yxi4tUyq06CxgXmP75GMgX65AXmFx5XAnCI8RzJRSrepaK/KVry/OQlKBr1nVCzJPHGCpVibu6ujohzDROTk7avryRK50H5YYoicblmDHj4lPvEka7XxZGbcRAqX9mlrjMQ/kyXfPQdWVx4/O66Dz7oBpxebOVn/BZIDqUzgkWhoWFvEiMJ6F5VPt3xKWvrinmLDGPuHmMTJ6Hxp4mrqAfsTBrnP9NNeIu+uTp12Wz5EAGFk1CxXO0sajkie2lhS7dKuT5xrZS3gyx08TtEi7yHXEF/WeN87+pStzNzc32SZwH7m2JL+WMSLgohCAP7V2Scl5tCBLjZokL5ECaGBMhdpq4pXkopusFNEtcYuMYQI5p8+yDwYvLbwT4cc+TuQj0mfVHCMHClHYULXJceBGFh9w/C1Nqk2Sl/EA7fWKbxqMv9TwPiFLmMefZcanHfEOTFgYvrjElLK6pEotrqsTimiqxuKZKLK6pEotrqsTimiqxuKZKLK6pkqK4R0dH/rRGM1hwk08UVRmLe3l52X4GaamTMX3D/6CcnZ2NbA3ifn5+tp8/6l3XDA19Nu7r6+vI1iAu5fb2tg1g5/X3P5i+wcGHh4f2i3Surq5Glv4pX8Sl8F0Qp6enrcDcDBvTFziIi9wF5DIhrovL8EvT/Aaz4Rpxr82KsQAAAABJRU5ErkJggg==" InformativeScreenshot="b03f2725449bac500024ea7f01ba77d0.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/p3s1pDkYFUGsPCIOFmzPFA" ScopeSelectorArgument="&lt;html title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Please find'" sap:VirtualizedContainerService.HintSize="854,554" sap2010:WorkflowViewState.IdRef="NCheckState_1" Timeout="[TimeoutDesired]">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears - navigated successfully to work items" sap:VirtualizedContainerService.HintSize="400,207" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="338,92" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Navigated successfully to work items&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear - Could not navigate to work items" sap:VirtualizedContainerService.HintSize="400,337" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="338,92" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Error" Message="[&quot;Could not navigate to work items&quot;]" />
+                  <Throw DisplayName="Throw - SE: Could not navigate to work items" Exception="[new System.Exception(&quot;Could not navigate to work items&quot;)]" sap:VirtualizedContainerService.HintSize="338,90" sap2010:WorkflowViewState.IdRef="Throw_1" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/work-items" ContentHash="HXFctqwOxkWcffdR0vEKSg" DesignTimeRectangle="547, 248, 823, 17" ElementType="Text" FriendlyName="'Please find'" FullSelectorArgument="&lt;webctrl tag='P' aaname='Please find below your work items. They need to be completed in the order specified by your manager.' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' aaname='Please find below your work items. They need to be completed in the order specified by your manager.' type='' check:text='Please find below your work items. They need to be completed in the order specified by your manager.' /&gt;" Guid="2d9db961-d20e-4725-b531-608222b56b5d" ImageBase64="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" InformativeScreenshot="af8ff4322687bb5d15ed04a48ae97cf6.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/QaEIV4edvUiH3irtQW0zww" ScopeSelectorArgument="&lt;html title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="950,92" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;End navigating to work items&quot;]" />
+  </Sequence>
+</Activity>

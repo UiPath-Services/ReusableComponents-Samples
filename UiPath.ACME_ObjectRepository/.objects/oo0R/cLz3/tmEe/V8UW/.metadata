@@ -1,0 +1,13 @@
+﻿{
+  "Id": "V8UW3eBkcEK-drBYh4MG-g",
+  "Reference": "R-tCXHHCf02Oi2KphFNhyQ/V8UW3eBkcEK-drBYh4MG-g",
+  "ParentRef": "R-tCXHHCf02Oi2KphFNhyQ/tmEefoJOrkqMdO4rsJLDGg",
+  "Name": "Reset test data",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-04-01T15:37:08.8057212Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-01T15:37:08.8057212Z"
+}

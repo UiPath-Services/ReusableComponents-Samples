@@ -1,0 +1,156 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Reset_test_data" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Browser" Type="InOutArgument(ui:UiElement)">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+    <x:Property Name="TimeoutDesired" Type="InArgument(x:Int32)">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1014,1764</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Reset_test_data_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Reset_test_data" sap:VirtualizedContainerService.HintSize="924,1599" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="882,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Start resetting test data&quot;]" />
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Navigate to reset test data workflow" sap:VirtualizedContainerService.HintSize="882,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Navigation\Navigate to reset test data.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">[TimeoutDesired]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <uix:NApplicationCard DisplayName="Use Application/Browser 'Resert Test Data'" sap:VirtualizedContainerService.HintSize="882,1093" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[Browser]" InteractionMode="Simulate" OutUiElement="[Browser]" Timeout="[Convert.ToDouble(TimeoutDesired)]">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do - reset test data" sap:VirtualizedContainerService.HintSize="848,917" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Reset test data'" sap:VirtualizedContainerService.HintSize="806,166" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Timeout="[Convert.ToDouble(TimeoutDesired)]">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/reset-test-data" ContentHash="3TmoXyGSrU-z3zsCp0EqHw" DesignTimeRectangle="533, 426, 108, 29" ElementType="Button" FriendlyName="'Reset Test Data'" FullSelectorArgument="&lt;webctrl id='buttonRTD' tag='BUTTON' aaname='Reset Test Data' /&gt;" FuzzySelectorArgument="&lt;webctrl id='buttonRTD' tag='BUTTON' aaname='Reset Test Data' type='button' check:text='Reset Test Data' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHAAAAAhCAYAAAABMi8ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKySURBVGhD7Zo/ixRBEMX9RHe3npiY+lGMBJXDVVkD0djsMk1MTnEP/HPKaSwiKmiicvmZCQeaXGLS7pubt7wtqnW3d3CnoR48pqe6e7q6ftMTzakUqloBsHIFwMo1A3B7/1s6O9xN65cfprVLO+Ge+dzoaboz/tTSOtEU4O3dz2n9yqM0GD5Lm6NXafPm63DPDDZrk8O1vf+1pSYAz9/aSxvDJ+7EcH88uPa8+UJSU4Abk9MXJ68CTxjhc0pNASLoTgj3zgGwcgfAyh0AK3cArNydAPx1/LudOStv7LK+cP9D82xcNX735UET9/Tm4MfM2Hn95fvPxl6fp/H7Q3es9eHRcXFO1p0BtMkjydzml3EOoBrFwfpe3yL+F0C8NLxnXvNArAIgEkSc9+intLgahxiH9WSzWCodq84BXCQHPIPyig0pQNiui7YKMbwQFGum+9SazeP/cgL5eeOpwXgWReOIcY7OZ4HRLj2BJTngyrY1ZAFyDbRtDroe4mzbNSBby7+5M4BWiLFfiwIjQfZDthCMKySMx7xSgCU52OKqvTkK0Fqhadua+/T6PHd+Allg3RyKYMXicTzlxahlAC6aA+csA9DKA+jtdaUAYbQh3iPZXCHUOg7yIJUCLMkB19wcyALUde1chZZrwys/gTQS4wb4ZrLoiKOfMDhHi6fzOQ7PKQVYkgOubFtDClBzxL23fw8aasc2X/xeAOSGGGdyEMZzHJKnNA7jntLnM56DiGdagPCiOXC8B9GTAiU0iMCYE9fDVXPiC5N7aTx3AjC8OgfAyh0AK3cArNwBsHIHwModAGt27qcm/NCLX9bcSeHeeHB9L525Om6pCUD8LNr82BsQ++nJyTt940XD6OK9ty01AQiNdj6mwdbj5oiG+2ew2XrwrqV1ohmAofoUAKtWSn8AjEpiBaxbr5gAAAAASUVORK5CYII=" InformativeScreenshot="ac400e853f654f740b4929773c5a249b.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/V8UW3eBkcEK-drBYh4MG-g" ScopeSelectorArgument="&lt;html title='ACME System 1 - Reset Test Data' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Reset Test Data" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='button' /&gt;" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'unchecked'" sap:VirtualizedContainerService.HintSize="806,617" sap2010:WorkflowViewState.IdRef="NCheckState_1" Timeout="[Convert.ToDouble(TimeoutDesired)*2]">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,391" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Data reset successfully&quot;]" />
+                  <uix:NClick ClickType="Single" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="0AkF0-gUiU2LcGEuMtL0Rw" DesignTimeRectangle="226, 119, 75, 23" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='2' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='OK' check:text='unchecked' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE8AAAAbCAYAAAA9K9JnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD5SURBVGhD7dbBDcIwDIXh7JRtMgm3rJJVMgXnbpANTK3QNK5SQbEIRnqHX2Dq06dAcKUUQp8FPEXAUyTw3O2OXiS8xDBYRjLhJYbnwrIs6BDwFAFPEfAUAU+RbbwUyDnX8jF3zxMF5ynmOqew7oTUPf9+ZvFy9CtYoNQ+yxR9D9ThMfJkOM4oHkPtp6qVI/kGuuHxa488L5t4Aqmvnr6Q+H3F8yPkSf0h3obFeKPfwnnZxDtcBq3Tr+1vTp9RvPMLYz9lHRpfGD5SbrtzMovHVcALf1UmA5rGsx7wFAFPEfAUvY2HzhNeYhgsI5nw6gd0LeApAt7HFXoAb+ZrYvlHDM8AAAAASUVORK5CYII=" InformativeScreenshot="e1a14ef4867791e6af151cd31d3326f7.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/GvgFahve_UyAoJG8hMpMJQ" ScopeSelectorArgument="&lt;wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="unchecked" TextMethod="AttributeText" TextSelector="&lt;wnd /&gt;" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,247" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Error" Message="[&quot;Could not reset test data&quot;]" />
+                  <Throw DisplayName="Throw - SE: Could not reset test data" Exception="[new System.Exception(&quot;Could not reset test data&quot;)]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Throw_1" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable ContentHash="0AkF0-gUiU2LcGEuMtL0Rw" DesignTimeRectangle="226, 119, 75, 23" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='2' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='OK' check:text='unchecked' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE8AAAAbCAYAAAA9K9JnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD5SURBVGhD7dbBDcIwDIXh7JRtMgm3rJJVMgXnbpANTK3QNK5SQbEIRnqHX2Dq06dAcKUUQp8FPEXAUyTw3O2OXiS8xDBYRjLhJYbnwrIs6BDwFAFPEfAUAU+RbbwUyDnX8jF3zxMF5ynmOqew7oTUPf9+ZvFy9CtYoNQ+yxR9D9ThMfJkOM4oHkPtp6qVI/kGuuHxa488L5t4Aqmvnr6Q+H3F8yPkSf0h3obFeKPfwnnZxDtcBq3Tr+1vTp9RvPMLYz9lHRpfGD5SbrtzMovHVcALf1UmA5rGsx7wFAFPEfAUvY2HzhNeYhgsI5nw6gd0LeApAt7HFXoAb+ZrYvlHDM8AAAAASUVORK5CYII=" InformativeScreenshot="e1a14ef4867791e6af151cd31d3326f7.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/GvgFahve_UyAoJG8hMpMJQ" ScopeSelectorArgument="&lt;wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="unchecked" TextMethod="AttributeText" TextSelector="&lt;wnd /&gt;" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="882,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;End resetting test data&quot;]" />
+  </Sequence>
+</Activity>
