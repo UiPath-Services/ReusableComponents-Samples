@@ -19,7 +19,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1025,1002</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1068,1015.3333333333335</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Work_items_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -54,6 +54,8 @@
       <x:String>System.ComponentModel</x:String>
       <x:String>System.Xml.Serialization</x:String>
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -102,43 +104,43 @@
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Download_all_work_items" sap:VirtualizedContainerService.HintSize="496,937" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Download_all_work_items" sap:VirtualizedContainerService.HintSize="496,950.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Start downloading work items&quot;]" />
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Navigate to work items workflow" sap:VirtualizedContainerService.HintSize="434,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Navigation\Navigate to work items.xaml">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Start downloading work items&quot;]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Navigate to work items workflow" sap:VirtualizedContainerService.HintSize="434,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Navigation\Navigate to work items.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
         <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">[TimeoutDesired]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <uix:NApplicationCard DisplayName="Use Application/Browser 'Work Items'" sap:VirtualizedContainerService.HintSize="434,409" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[Browser]" InteractionMode="Simulate" OpenMode="Never" OutUiElement="[Browser]" ScopeGuid="7e7cabca-ca9e-4229-afec-0ec4499425ed" Timeout="[Convert.ToDouble(TimeoutDesired)]">
+    <uix:NApplicationCard DisplayName="Use Application/Browser 'Work Items'" sap:VirtualizedContainerService.HintSize="434,412.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[Browser]" InteractionMode="Simulate" OpenMode="Never" OutUiElement="[Browser]" ScopeGuid="7e7cabca-ca9e-4229-afec-0ec4499425ed" Timeout="[Convert.ToDouble(TimeoutDesired)]">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do - extract work items" sap:VirtualizedContainerService.HintSize="400,272" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do - extract work items" sap:VirtualizedContainerService.HintSize="400,273.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NExtractData ExtractDataSettings="{x:Null}" ContinueOnError="True" DataTable="[ExtractedWorkItems]" DisplayName="Extract Table Data 'Extract Table Data'" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest' /&gt;" sap:VirtualizedContainerService.HintSize="338,157" sap2010:WorkflowViewState.IdRef="NExtractData_2" LimitExtractionTo="Rows" MaximumResults="0" ScopeIdentifier="7e7cabca-ca9e-4229-afec-0ec4499425ed" Timeout="[Convert.ToDouble(TimeoutDesired)]">
+            <uix:NExtractData ContinueOnError="True" DataTable="[ExtractedWorkItems]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' IsDeleted='true' Name='Actions' ReferenceName='Actions' ReferenceIdx='0'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Actions Url' ReferenceName='Actions Url' ReferenceIdx='1'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='WIID' ReferenceName='WIID' ReferenceIdx='2'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Description' ReferenceName='Description' ReferenceIdx='3'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Type' ReferenceName='Type' ReferenceIdx='4'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Status' ReferenceName='Status' ReferenceIdx='5'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Date' ReferenceName='Date' ReferenceIdx='6'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Actions' attr='text' name2='Actions Url' attr2='href' /&gt;&lt;column name='WIID' attr='text' /&gt;&lt;column name='Description' attr='text' /&gt;&lt;column name='Type' attr='text' /&gt;&lt;column name='Status' attr='text' /&gt;&lt;column name='Date' attr='text' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="338,160" sap2010:WorkflowViewState.IdRef="NExtractData_2" InteractionMode="DebuggerApi" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="7e7cabca-ca9e-4229-afec-0ec4499425ed" Timeout="[Convert.ToDouble(TimeoutDesired)]">
               <uix:NExtractData.NextLink>
-                <uix:TargetAnchorable ContentHash="yq2ffpMAqUilKmvI9mBegA" DesignTimeRectangle="534, 286, 848, 363" ElementType="Table" FriendlyName="'TABLE'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="fbecb74b-b5ff-44a3-901e-18af8a767be4" InformativeScreenshot="dbc4191de7c1ba26371a94e9b0f00a05.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/SUt8Zeuo-EW6HjlhsYp2XA" ScopeSelectorArgument="&lt;html title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector" />
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/work-items" DesignTimeRectangle="1667, 936, 33, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'&gt;'" FullSelectorArgument="&lt;webctrl aria-label='Next »' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Next »' tag='A' type='' class='page-numbers' aaname='&amp;gt;' check:innerText='&amp;gt;' /&gt;" Guid="d1d82411-4406-4d8c-9b21-2489565d7cd3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAYAAADFniADAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHhSURBVFhH7Zc/a8MwEMX7aU0xnbKaTKVbhtC5Xbol0DVLB38BDx28hQ4dTEgIGExCIEOuPBMJRTlhnxQFD33wCLb158fpdFIeaID6h+orL6jj8Ui73Y7quqbtdkubzYbW63X7i2e8x3e085EIar/ft5MCoK/RHv0k6gV1OBzEMLbRH+P0USdU0zTsJL7GeF1yQp1OpzY3uIFDjXExvktOqFhAyhjfJRbq1kvmsmspr6CQjNwAscwl/xVU6C6TGvPZuoBCPeE6xrZdxy6g7h0lZTtaGgpHAteBc/k5oee3BRXLiv3uY/NI0lA4q7jGnMtZRkmStE7HU5rnJVUrvm1fY34lDSWqS6uKynxO03Gq4ZJ0FBQ9s25pKN98qpYFLT4mlD2d4TyjZ+aVhlLXD39X9FMs6P1lROkZLpuVTDvemF9JQ3ENZQbUF81fM0of5VCwUnCkqt9vymfT4OVjIyXKqQiJzuaUZPfFKAns7hPVqQjFk61Tkooew2xFh3xrVajNfIIuoAZ5S4DuHS07StAV1CBvntDg7uhKoluDh826ZMsJNcj/fUq3XkrXkpnqhIKQjKG7Ev25pObUC0oJ9UQKh/Z2HeqSCEoJRwLOKuQGJlXXHvziGe/x3Tw6JPKCiiuiP83CPPc/EnDoAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
               </uix:NExtractData.NextLink>
               <uix:NExtractData.Target>
-                <uix:TargetAnchorable ContentHash="yq2ffpMAqUilKmvI9mBegA" DesignTimeRectangle="534, 286, 848, 363" ElementType="Table" FriendlyName="'Extract Table Data'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="61293226-d919-4780-a183-028941b2bf11" InformativeScreenshot="dbc4191de7c1ba26371a94e9b0f00a05.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/SUt8Zeuo-EW6HjlhsYp2XA" ScopeSelectorArgument="&lt;html title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector" />
+                <uix:TargetAnchorable ContentHash="KDiiy56ddkm_I-yJa7sZ4Q" DesignTimeRectangle="210, 283, 1498, 631" DesignTimeScaleFactor="1.5" FriendlyName="'Extract Table Data'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="95d56b08-272a-402a-9726-465b11be9b00" InformativeScreenshot="1a972c6b90ed7a6eb79b5ad58652c525.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/uG7SCeD2Ok2i_5VuOjmGpA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
               </uix:NExtractData.Target>
             </uix:NExtractData>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
     </uix:NApplicationCard>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;End downloading work items&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,96" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;End downloading work items&quot;]" />
   </Sequence>
 </Activity>

@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Test" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="927,1119" sap2010:WorkflowViewState.IdRef="Test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Test" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="941,1657" sap2010:WorkflowViewState.IdRef="Test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="30">
       <x:String>System.Activities</x:String>
@@ -34,7 +34,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="42">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="47">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -77,69 +77,31 @@
       <AssemblyReference>System.Data.Common</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
       <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Test" sap:VirtualizedContainerService.HintSize="441,1054" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Test" sap:VirtualizedContainerService.HintSize="435,1592" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:UiElement" Name="Browser" />
       <Variable x:TypeArguments="sd:DataTable" Name="Extracted" />
-      <Variable x:TypeArguments="x:String" Name="variable" />
       <Variable x:TypeArguments="sd:DataTable" Name="Invoices" />
       <Variable x:TypeArguments="sd:DataTable" Name="WorkItems" />
       <Variable x:TypeArguments="sd:DataTable" Name="ExtractedWorkItems" />
+      <Variable x:TypeArguments="sd:DataTable" Name="InvoicesByTaxID" />
+      <Variable x:TypeArguments="x:String" Name="InvoicesByTaxIDString" />
+      <Variable x:TypeArguments="x:String" Name="ExtractedWorkItemsString" />
+      <Variable x:TypeArguments="x:String" Name="WorkItemsString" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="379,25" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-      <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="422,377" sap2010:WorkflowViewState.IdRef="Sequence_2">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Login Acme workflow" sap:VirtualizedContainerService.HintSize="360,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Login Acme.xaml">
-            <ui:InvokeWorkflowFile.Arguments>
-              <InArgument x:TypeArguments="x:String" x:Key="URL">https://acme-test.uipath.com</InArgument>
-              <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
-              <InArgument x:TypeArguments="x:String" x:Key="Username">asdf@asdf.com</InArgument>
-              <InArgument x:TypeArguments="ss:SecureString" x:Key="Password">[new System.Net.NetworkCredential("", "asdf").SecurePassword]</InArgument>
-              <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired" />
-            </ui:InvokeWorkflowFile.Arguments>
-          </ui:InvokeWorkflowFile>
-          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Download all invoices workflow" sap:VirtualizedContainerService.HintSize="360,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Invoices\Download all invoices.xaml">
-            <ui:InvokeWorkflowFile.Arguments>
-              <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
-              <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">5</InArgument>
-              <OutArgument x:TypeArguments="sd:DataTable" x:Key="ExtractedInvoices">[Extracted]</OutArgument>
-            </ui:InvokeWorkflowFile.Arguments>
-          </ui:InvokeWorkflowFile>
-        </Sequence>
-      </ui:CommentOut.Body>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-    </ui:CommentOut>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Check browser exists workflow" sap:VirtualizedContainerService.HintSize="379,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="General\Check browser exists.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">
-          <VisualBasicReference x:TypeArguments="ui:UiElement" ExpressionText="Browser" />
-        </InOutArgument>
-        <InArgument x:TypeArguments="x:Boolean" x:Key="ShouldMaximize">
-          <Literal x:TypeArguments="x:Boolean" Value="True" />
-        </InArgument>
-        <InArgument x:TypeArguments="x:Double" x:Key="TimeoutDesired">
-          <Literal x:TypeArguments="x:Double" Value="0.5" />
-        </InArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Login Acme workflow" sap:VirtualizedContainerService.HintSize="379,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Login Acme.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Login Acme workflow" sap:VirtualizedContainerService.HintSize="373,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Login Acme.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:String" x:Key="URL">https://www.acme-test.uipath.com</InArgument>
         <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
@@ -148,39 +110,35 @@
         <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">5</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Work items\Download all work items.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="379,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Work items\Download all work items.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">
-          <VisualBasicReference x:TypeArguments="ui:UiElement" ExpressionText="Browser" />
-        </InOutArgument>
-        <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">
-          <Literal x:TypeArguments="x:Int32" Value="1" />
-        </InArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="ExtractedWorkItems">
-          <VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="ExtractedWorkItems" />
-        </OutArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoices\Download all invoices.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="379,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Invoices\Download all invoices.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">
-          <VisualBasicReference x:TypeArguments="ui:UiElement" ExpressionText="Browser" />
-        </InOutArgument>
-        <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">
-          <Literal x:TypeArguments="x:Int32" Value="1" />
-        </InArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="ExtractedInvoices">
-          <VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="WorkItems" />
-        </OutArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Navigation\Navigate to reset test data.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="379,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Navigation\Navigate to reset test data.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Work items\Download all work items.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="373,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Work items\Download all work items.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
-        <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">5</InArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">1</InArgument>
+        <OutArgument x:TypeArguments="sd:DataTable" x:Key="ExtractedWorkItems">[ExtractedWorkItems]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Logout Acme.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="379,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Logout Acme.xaml">
+    <ui:OutputDataTable DataTable="[ExtractedWorkItems]" DisplayName="Output WorkItems" sap:VirtualizedContainerService.HintSize="373,80" sap2010:WorkflowViewState.IdRef="OutputDataTable_2" Text="[ExtractedWorkItemsString]" />
+    <ui:LogMessage DisplayName="Log WorkItems" sap:VirtualizedContainerService.HintSize="373,92" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[ExtractedWorkItemsString]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoices\Download all invoices.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="373,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Invoices\Download all invoices.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">1</InArgument>
+        <OutArgument x:TypeArguments="sd:DataTable" x:Key="ExtractedInvoices">[WorkItems]</OutArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:OutputDataTable DataTable="[WorkItems]" DisplayName="Output Invoices" sap:VirtualizedContainerService.HintSize="373,80" sap2010:WorkflowViewState.IdRef="OutputDataTable_3" Text="[WorkItemsString]" />
+    <ui:LogMessage DisplayName="Log Invoices" sap:VirtualizedContainerService.HintSize="373,92" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[WorkItemsString]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoices\Download invoices by vendor tax ID.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="373,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Invoices\Download invoices by vendor tax ID.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">1</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="VendorTaxID">FR453231</InArgument>
+        <OutArgument x:TypeArguments="sd:DataTable" x:Key="ExtractedInvoices">[InvoicesByTaxID]</OutArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:OutputDataTable DataTable="[InvoicesByTaxID]" DisplayName="Output InvoicesByTaxID" sap:VirtualizedContainerService.HintSize="373,80" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[InvoicesByTaxIDString]" />
+    <ui:LogMessage DisplayName="Log InvoicesByTaxID" sap:VirtualizedContainerService.HintSize="373,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[InvoicesByTaxIDString]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Logout Acme.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="373,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Logout Acme.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
         <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">5</InArgument>

@@ -3,16 +3,14 @@
   "description": "ACME library with Object Repository",
   "main": "NewActivity.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "2.16.2",
-    "UiPath.Mail.Activities": "1.18.2",
-    "UiPath.System.Activities": "22.10.4",
+    "UiPath.System.Activities": "22.10.5",
     "UiPath.UIAutomation.Activities": "22.10.5"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.2.0",
-  "projectVersion": "1.0.22",
+  "projectVersion": "1.0.23",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KDiiy56ddkm_I-yJa7sZ4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="210, 283, 1498, 631" DesignTimeScaleFactor="1.5" FriendlyName="'Actions WIID'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="95d56b08-272a-402a-9726-465b11be9b00" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1a972c6b90ed7a6eb79b5ad58652c525.png" xmlns="">0F_zPyC47gkO-qe0XfCGVWg</imageRef>
+    </TargetAnchorable>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table'&gt;
+	&lt;Column xsi:type='DataColumn' IsDeleted='true' Name='Actions' ReferenceName='Actions' ReferenceIdx='0'&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' Name='Actions Url' ReferenceName='Actions Url' ReferenceIdx='1'&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' Name='WIID' ReferenceName='WIID' ReferenceIdx='2'&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' Name='Description' ReferenceName='Description' ReferenceIdx='3'&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' Name='Type' ReferenceName='Type' ReferenceIdx='4'&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' Name='Status' ReferenceName='Status' ReferenceIdx='5'&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' Name='Date' ReferenceName='Date' ReferenceIdx='6'&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="https://acme-test.uipath.com/work-items" DesignTimeRectangle="1667, 936, 33, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'&gt;'" FullSelectorArgument="&lt;webctrl aria-label='Next »' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Next »' tag='A' type='' class='page-numbers' aaname='&amp;gt;' check:innerText='&amp;gt;' /&gt;" Guid="d1d82411-4406-4d8c-9b21-2489565d7cd3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAYAAADFniADAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHhSURBVFhH7Zc/a8MwEMX7aU0xnbKaTKVbhtC5Xbol0DVLB38BDx28hQ4dTEgIGExCIEOuPBMJRTlhnxQFD33wCLb158fpdFIeaID6h+orL6jj8Ui73Y7quqbtdkubzYbW63X7i2e8x3e085EIar/ft5MCoK/RHv0k6gV1OBzEMLbRH+P0USdU0zTsJL7GeF1yQp1OpzY3uIFDjXExvktOqFhAyhjfJRbq1kvmsmspr6CQjNwAscwl/xVU6C6TGvPZuoBCPeE6xrZdxy6g7h0lZTtaGgpHAteBc/k5oee3BRXLiv3uY/NI0lA4q7jGnMtZRkmStE7HU5rnJVUrvm1fY34lDSWqS6uKynxO03Gq4ZJ0FBQ9s25pKN98qpYFLT4mlD2d4TyjZ+aVhlLXD39X9FMs6P1lROkZLpuVTDvemF9JQ3ENZQbUF81fM0of5VCwUnCkqt9vymfT4OVjIyXKqQiJzuaUZPfFKAns7hPVqQjFk61Tkooew2xFh3xrVajNfIIuoAZ5S4DuHS07StAV1CBvntDg7uhKoluDh826ZMsJNcj/fUq3XkrXkpnqhIKQjKG7Ev25pObUC0oJ9UQKh/Z2HeqSCEoJRwLOKuQGJlXXHvziGe/x3Tw6JPKCiiuiP83CPPc/EnDoAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

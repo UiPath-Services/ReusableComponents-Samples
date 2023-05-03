@@ -19,7 +19,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>927,1199</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1068,1217.3333333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Download_all_invoices_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -90,47 +90,55 @@
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Download_all_invoices" sap:VirtualizedContainerService.HintSize="496,1134" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Download_all_invoices" sap:VirtualizedContainerService.HintSize="496,1152.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Start downloading all invoices&quot;]" />
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Navigate to search for invoice workflow" sap:VirtualizedContainerService.HintSize="434,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Navigation\Navigate to search for invoice.xaml">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Start downloading all invoices&quot;]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Navigate to search for invoice workflow" sap:VirtualizedContainerService.HintSize="434,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Navigation\Navigate to search for invoice.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InOutArgument x:TypeArguments="ui:UiElement" x:Key="Browser">[Browser]</InOutArgument>
         <InArgument x:TypeArguments="x:Int32" x:Key="TimeoutDesired">[TimeoutDesired]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <uix:NApplicationCard DisplayName="Use Application/Browser 'Invoices'" sap:VirtualizedContainerService.HintSize="434,606" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[Browser]" InteractionMode="Simulate" OpenMode="Never" OutUiElement="[Browser]" ScopeGuid="b6fa5d7a-2353-4633-9c5d-6ffaad0cbbf1" Timeout="[Convert.ToDouble(TimeoutDesired)]">
+    <uix:NApplicationCard DisplayName="Use Application/Browser 'Invoices'" sap:VirtualizedContainerService.HintSize="434,614.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[Browser]" InteractionMode="Simulate" OpenMode="Never" OutUiElement="[Browser]" ScopeGuid="b6fa5d7a-2353-4633-9c5d-6ffaad0cbbf1" Timeout="[Convert.ToDouble(TimeoutDesired)]">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do - download all invoices" sap:VirtualizedContainerService.HintSize="400,469" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do - download all invoices" sap:VirtualizedContainerService.HintSize="400,475.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Display all invoices'" sap:VirtualizedContainerService.HintSize="338,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Timeout="[Convert.ToDouble(TimeoutDesired)]">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Display all invoices'" sap:VirtualizedContainerService.HintSize="338,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Timeout="[Convert.ToDouble(TimeoutDesired)]">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/invoices/search" ContentHash="RjAxPO9lWUGtJxdYDeSCtA" DesignTimeRectangle="598, 377, 124, 29" ElementType="Button" FriendlyName="'Display All Invoices'" FullSelectorArgument="&lt;webctrl id='buttonShowAll' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='buttonShowAll' tag='BUTTON' type='button' aaname='Display All Invoices' check:text='Display All Invoices' /&gt;" Guid="b8deb232-52b8-479d-a5d3-98a680c34994" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIAAAAAhCAYAAAARfqOAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALfSURBVHhe7ZvbbQJBDEXTE1XQBV3QBEXQBVXQC0/x+NnorHRXF2s2gbBAtOORjnbisb2254Lyw1eTq+qVAqh83Qjgcrk0+/2+2W63yUg5Ho/tPWt1Ajifz81ms0kq4Xq9tvfeCQBllByTcbLb7dp77wRwOByKjsk4SQFUTgqgclIAlZMCqJwUQOU8LYDZbNZMJpMb5vN5d75cLpvpdHoTcy+r1arNVzr7K+v1us25WCxu7PSBTec8/Rzog36i/VmYl8/snQwigDhMBjVEQ68QALVScxTlJwXwSV4iAL84/waQXWjInJNDduWLAkBU8gHi4zcMtni5DmfyIb/sjwqAvdcjwcd5YMfGXrmF+yge8JeP18g7f7PHu/iNlwgAVKRfEE8Vjl2DUQPsNST8QPZ40cRqaPjowqilbwjk0zvxiUPH9ogAVI/qJMb7KsWoNheGC8D35NU7vF/yaS6xj77a+3i7ADQMxwcDyukCiPigeCqe2L4BuJ8uWmd6p+ylHF5/rFn9ery/I/bift6L8rif7NqDaqEGapf9Ud4qANmFGorD1EDi0PDzeA0NP128vyvisUIXOpQA2JMLP1CN7PGRv79H/cY80TeiWoiVrXQXP/HW/wEc7MSyj8NUTs/D3/IHHxrocvoGUKrDc+qdQwgAO7WRU/7eCzwiANlLNUXu9RMvEYAPxwfvxWHX8DmXjwbDEHxoGqj7uADYK042h1j3B+XhqT7c5r5AjfcIQHWDzsFjqEU9s1dtPk/lUX3yUY2cY4t1lGrvYxABqFnhBbkA2LuffDj3PBqyBsBeTQP+nle+/rfjA4tnxDDEIQWgc12Y8B5Advzcl1j5xJyyqw6QLdrv4WkBDEEc5l+In4TkPkYhAH0ySmfJz/wLASSfIwVQOSmAykkBVE4KoHJSAJWTAqgcfgHG6gTAL0VKjsk4OZ1O7b13AmDx8zCUUQpIxgH3yz1r3QggV30rBVD1appvnhaNtRv4wWEAAAAASUVORK5CYII=" InformativeScreenshot="fadc34cffc69cb95f741f5ed9d99b3ca.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/PP4aymI2ikekidbIwcCjag" ScopeSelectorArgument="&lt;html title='ACME System 1 - Search' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NExtractData ExtractDataSettings="{x:Null}" ContinueOnError="True" DataTable="[ExtractedInvoices]" DisplayName="Extract Table Data" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest' /&gt;" sap:VirtualizedContainerService.HintSize="338,157" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="Rows" MaximumResults="0" Timeout="[Convert.ToDouble(TimeoutDesired)]">
+            <uix:NExtractData ContinueOnError="True" DataTable="[ExtractedInvoices]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Invoice Number' ReferenceName='Invoice Number' ReferenceIdx='0'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Vendor Tax ID' ReferenceName='Vendor Tax ID' ReferenceIdx='1'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Invoice Item' ReferenceName='Invoice Item' ReferenceIdx='2'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Total' ReferenceName='Total' ReferenceIdx='3'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Date' ReferenceName='Date' ReferenceIdx='4'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Invoice Number' attr='text' /&gt;&lt;column name='Vendor Tax ID' attr='text' /&gt;&lt;column name='Invoice Item' attr='text' /&gt;&lt;column name='Total' attr='text' /&gt;&lt;column name='Date' attr='text' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="338,160" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="b6fa5d7a-2353-4633-9c5d-6ffaad0cbbf1" Timeout="[Convert.ToDouble(TimeoutDesired)]">
               <uix:NExtractData.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="536, 287, 848, 5315" ElementType="Table" FriendlyName="'TABLE'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="64a9d2ee-713d-4004-810d-777f058a0da2" InformativeScreenshot="319659bca4ff8a4e9942768744ade283.png" ScopeSelectorArgument="&lt;html title='ACME System 1 - Search Results' /&gt;" SearchSteps="Selector" />
+                <uix:TargetAnchorable ContentHash="ePg3TSNhV0GSfft3J32jNA" DesignTimeRectangle="530, 670, 1498, 9295" DesignTimeScaleFactor="1.5" FriendlyName="'Extract Table Data'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="24858314-3b35-47fa-90be-b06207b484e2" InformativeScreenshot="f21c1d69c4c23148e02b6410679cfc15.png" Reference="R-tCXHHCf02Oi2KphFNhyQ/oMYftmEvREGp5LfBxLXvqw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Search Results' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
               </uix:NExtractData.Target>
             </uix:NExtractData>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
     </uix:NApplicationCard>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;End downloading all invoices&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,96" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;End downloading all invoices&quot;]" />
   </Sequence>
 </Activity>

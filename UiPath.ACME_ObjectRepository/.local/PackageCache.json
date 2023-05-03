@@ -2,171 +2,84 @@
   "Packages": [
     {
       "Package": {
-        "Id": "UiPath.Excel.Activities",
-        "Version": "2.16.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\closedxml\\0.95.4\\lib/netstandard2.0/ClosedXML.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\csvhelper\\16.0.0\\lib/netstandard2.1/CsvHelper.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\documentformat.openxml\\2.12.1\\lib/netstandard2.0/DocumentFormat.OpenXml.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\excelnumberformat\\1.0.10\\lib/netstandard2.0/ExcelNumberFormat.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.OOXML.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.OpenXml4Net.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib/netstandard2.0/BouncyCastle.Crypto.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\sharpziplib\\1.3.3\\lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib/net5.0-windows7.0/Microsoft.Office.Interop.Excel.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib/net5.0-windows7.0/Microsoft.Vbe.Interop.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib/net5.0-windows7.0/Office.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib/net5.0-windows7.0/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib/net5.0-windows7.0/UiPath.Excel.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib/net5.0-windows7.0/UiPath.Excel.Activities.Package.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib/net5.0-windows7.0/UiPath.Excel.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Mail.Activities",
-        "Version": "1.18.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\azure.core\\1.18.0\\lib/net5.0/Azure.Core.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis\\1.55.0\\lib/netstandard2.0/Google.Apis.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554\\lib/netstandard2.0/Google.Apis.Calendar.v3.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.core\\1.55.0\\lib/netstandard2.0/Google.Apis.Core.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\lib/netstandard2.0/Google.Apis.Gmail.v1.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567\\lib/netstandard2.0/Google.Apis.PeopleService.v1.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\htmlagilitypack\\1.11.38\\lib/netstandard2.0/HtmlAgilityPack.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\mailkit\\3.1.1\\lib/net6.0/MailKit.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.graph\\4.11.0\\lib/netstandard2.0/Microsoft.Graph.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.graph.core\\2.0.5\\lib/netstandard2.0/Microsoft.Graph.Core.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib/netcoreapp2.1/Microsoft.Identity.Client.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\mimekit\\3.1.1\\lib/net6.0/MimeKit.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.context\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Context.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.coordination\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.interop.waithandles\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.oop\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Oop.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.tasks\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Tasks.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.cancellation\\1.1.0\\lib/netstandard2.0/Nito.Cancellation.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.collections.deque\\1.1.0\\lib/netstandard2.0/Nito.Collections.Deque.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.disposables\\2.2.0\\lib/netstandard2.1/Nito.Disposables.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib/netstandard2.0/BouncyCastle.Crypto.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2\\lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.memory.data\\1.0.2\\lib/netstandard2.0/System.Memory.Data.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.connectionclient\\1.4.1\\lib/net5.0/ConnectionClient.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib/net6.0-windows7.0/Interop.Domino.UiPath.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Outlook.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Word.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib/net6.0-windows7.0/Office.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib/net6.0-windows7.0/UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib/net6.0-windows7.0/UiPath.Mail.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib/net6.0-windows7.0/UiPath.Mail.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib/net6.0-windows7.0/UiPath.MainSessionServer.Shared.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2"
-    },
-    {
-      "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "22.10.4"
+        "Version": "22.10.5"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\csvhelper\\16.0.0\\lib/netstandard2.1/CsvHelper.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\markdig.signed\\0.21.1\\lib/netcoreapp3.1/Markdig.Signed.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.applicationinsights\\2.15.0\\lib/netstandard2.0/Microsoft.ApplicationInsights.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.Connections.Abstractions.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Connections.Common.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Common.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.8.0\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.VisualBasic.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.management.infrastructure.cimcmdlets\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.Management.Infrastructure.CimCmdlets.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0\\runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0\\runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.commands.diagnostics\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Commands.Diagnostics.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.commands.management\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Commands.Management.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.commands.utility\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Commands.Utility.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.consolehost\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.ConsoleHost.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.coreclr.eventing\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.CoreCLR.Eventing.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.markdownrender\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.MarkdownRender.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.sdk\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.SDK.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.security\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Security.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.wsman.management\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.WSMan.Management.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.wsman.runtime\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.WSMan.Runtime.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\namotion.reflection\\1.0.14\\lib/netstandard2.0/Namotion.Reflection.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\njsonschema\\10.2.2\\lib/netstandard2.0/NJsonSchema.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\sharpziplib\\1.3.3\\lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20220715.4\\lib/net5.0-windows7.0/System.Activities.ViewModels.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.componentmodel.composition\\5.0.0\\lib/netcoreapp2.0/System.ComponentModel.Composition.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.componentmodel.composition.registration\\5.0.0\\lib/netstandard2.1/System.ComponentModel.Composition.Registration.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.data.odbc\\5.0.0\\runtimes/win/lib/netcoreapp2.0/System.Data.Odbc.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.data.oledb\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Data.OleDb.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.directoryservices.accountmanagement\\5.0.0\\runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.AccountManagement.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.directoryservices.protocols\\5.0.0\\runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.pipelines\\4.7.1\\lib/netcoreapp3.0/System.IO.Pipelines.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.ports\\5.0.0\\runtimes/win/lib/netstandard2.0/System.IO.Ports.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.management\\5.0.0\\runtimes/win/lib/netcoreapp2.0/System.Management.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.management.automation\\7.1.0\\runtimes/win/lib/net5.0/System.Management.Automation.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.net.http.winhttphandler\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Net.Http.WinHttpHandler.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.private.servicemodel\\4.7.0\\lib/netstandard2.0/System.Private.ServiceModel.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.context\\5.0.0\\lib/netstandard2.1/System.Reflection.Context.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.duplex\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Duplex.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.http\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Http.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.nettcp\\4.7.0\\lib/netstandard2.0/System.ServiceModel.NetTcp.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib/netcoreapp2.1/System.ServiceModel.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib/netcoreapp2.1/System.ServiceModel.Primitives.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.security\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Security.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.syndication\\5.0.0\\lib/netstandard2.0/System.ServiceModel.Syndication.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0\\runtimes/win/lib/netstandard2.0/System.ServiceProcess.ServiceController.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.system.activities\\22.10.4\\lib/net5.0-windows7.0/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.system.activities\\22.10.4\\lib/net5.0-windows7.0/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.system.activities\\22.10.4\\lib/net5.0-windows7.0/UiPath.System.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\csvhelper\\16.0.0\\lib/netstandard2.1/CsvHelper.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\markdig.signed\\0.21.1\\lib/netcoreapp3.1/Markdig.Signed.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.applicationinsights\\2.15.0\\lib/netstandard2.0/Microsoft.ApplicationInsights.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Common.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.8.0\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.VisualBasic.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.management.infrastructure.cimcmdlets\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.Management.Infrastructure.CimCmdlets.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0\\runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0\\runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.commands.diagnostics\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Commands.Diagnostics.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.commands.management\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Commands.Management.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.commands.utility\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Commands.Utility.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.consolehost\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.ConsoleHost.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.coreclr.eventing\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.CoreCLR.Eventing.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.markdownrender\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.MarkdownRender.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.sdk\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.SDK.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.security\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Security.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.wsman.management\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.WSMan.Management.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.wsman.runtime\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.WSMan.Runtime.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\namotion.reflection\\1.0.14\\lib/netstandard2.0/Namotion.Reflection.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\njsonschema\\10.2.2\\lib/netstandard2.0/NJsonSchema.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\sharpziplib\\1.3.3\\lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20220715.4\\lib/net5.0-windows7.0/System.Activities.ViewModels.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.componentmodel.composition\\5.0.0\\lib/netcoreapp2.0/System.ComponentModel.Composition.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.componentmodel.composition.registration\\5.0.0\\lib/netstandard2.1/System.ComponentModel.Composition.Registration.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.data.odbc\\5.0.0\\runtimes/win/lib/netcoreapp2.0/System.Data.Odbc.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.data.oledb\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Data.OleDb.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.directoryservices.accountmanagement\\5.0.0\\runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.AccountManagement.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.directoryservices.protocols\\5.0.0\\runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.pipelines\\4.7.1\\lib/netcoreapp3.0/System.IO.Pipelines.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.ports\\5.0.0\\runtimes/win/lib/netstandard2.0/System.IO.Ports.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.management\\5.0.0\\runtimes/win/lib/netcoreapp2.0/System.Management.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.management.automation\\7.1.0\\runtimes/win/lib/net5.0/System.Management.Automation.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.net.http.winhttphandler\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Net.Http.WinHttpHandler.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.private.servicemodel\\4.7.0\\lib/netstandard2.0/System.Private.ServiceModel.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.context\\5.0.0\\lib/netstandard2.1/System.Reflection.Context.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.duplex\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Duplex.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.http\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Http.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.nettcp\\4.7.0\\lib/netstandard2.0/System.ServiceModel.NetTcp.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib/netcoreapp2.1/System.ServiceModel.Primitives.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib/netcoreapp2.1/System.ServiceModel.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.security\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Security.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.syndication\\5.0.0\\lib/netstandard2.0/System.ServiceModel.Syndication.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0\\runtimes/win/lib/netstandard2.0/System.ServiceProcess.ServiceController.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib/net5.0-windows7.0/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib/net5.0-windows7.0/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib/net5.0-windows7.0/UiPath.System.Activities.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.system.activities\\22.10.4"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.system.activities\\22.10.5"
     },
     {
       "Package": {
@@ -174,107 +87,43 @@
         "Version": "22.10.5"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nlog\\4.5.11\\lib/netstandard2.0/NLog.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\polly\\7.1.0\\lib/netstandard2.0/Polly.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath\\22.10.52.8892\\lib/net6.0-windows7.0/UiPath.Interop.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.imageprocessing\\22.4.1\\lib/net5.0-windows7.0/UiPath.ImageProcessingInterop.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib/net6.0-windows7.0/UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib/net6.0-windows7.0/UiPath.OCR.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib/net6.0-windows7.0/UiPath.OCR.Core.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.CV.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.CV.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.UIAutomationCore.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.Wizards.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.Core.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\nlog\\4.5.11\\lib/netstandard2.0/NLog.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\polly\\7.1.0\\lib/netstandard2.0/Polly.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath\\22.10.52.8892\\lib/net6.0-windows7.0/UiPath.Interop.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.imageprocessing\\22.4.1\\lib/net5.0-windows7.0/UiPath.ImageProcessingInterop.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib/net6.0-windows7.0/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib/net6.0-windows7.0/UiPath.OCR.Activities.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib/net6.0-windows7.0/UiPath.OCR.Core.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.CV.Activities.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.CV.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib/net6.0-windows7.0/UiPath.Wizards.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.Core.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5"
     }
   ],
   "Conflicts": [],
   "ResolvedDependencies": {
-    "Azure.Core": {
-      "Id": "Azure.Core",
-      "Version": "1.18.0",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.Bcl.AsyncInterfaces",
-          "Item2": "[1.0.0, )"
-        },
-        {
-          "Item1": "System.Buffers",
-          "Item2": "[4.5.1, )"
-        },
-        {
-          "Item1": "System.Diagnostics.DiagnosticSource",
-          "Item2": "[4.6.0, )"
-        },
-        {
-          "Item1": "System.Memory",
-          "Item2": "[4.5.4, )"
-        },
-        {
-          "Item1": "System.Memory.Data",
-          "Item2": "[1.0.2, )"
-        },
-        {
-          "Item1": "System.Numerics.Vectors",
-          "Item2": "[4.5.0, )"
-        },
-        {
-          "Item1": "System.Text.Encodings.Web",
-          "Item2": "[4.7.2, )"
-        },
-        {
-          "Item1": "System.Text.Json",
-          "Item2": "[4.6.0, )"
-        },
-        {
-          "Item1": "System.Threading.Tasks.Extensions",
-          "Item2": "[4.5.2, )"
-        }
-      ]
-    },
-    "ClosedXML": {
-      "Id": "ClosedXML",
-      "Version": "0.95.4",
-      "Dependencies": [
-        {
-          "Item1": "DocumentFormat.OpenXml",
-          "Item2": "[2.7.2, )"
-        },
-        {
-          "Item1": "ExcelNumberFormat",
-          "Item2": "[1.0.10, )"
-        },
-        {
-          "Item1": "Microsoft.CSharp",
-          "Item2": "[4.7.0, )"
-        },
-        {
-          "Item1": "System.Drawing.Common",
-          "Item2": "[4.5.0, )"
-        }
-      ]
-    },
     "CsvHelper": {
       "Id": "CsvHelper",
       "Version": "16.0.0",
@@ -282,112 +131,6 @@
         {
           "Item1": "Microsoft.CSharp",
           "Item2": "[4.5.0, )"
-        }
-      ]
-    },
-    "DocumentFormat.OpenXml": {
-      "Id": "DocumentFormat.OpenXml",
-      "Version": "2.12.1",
-      "Dependencies": [
-        {
-          "Item1": "System.IO.Packaging",
-          "Item2": "[4.7.0, )"
-        }
-      ]
-    },
-    "ExcelNumberFormat": {
-      "Id": "ExcelNumberFormat",
-      "Version": "1.0.10",
-      "Dependencies": []
-    },
-    "Google.Apis": {
-      "Id": "Google.Apis",
-      "Version": "1.55.0",
-      "Dependencies": [
-        {
-          "Item1": "Google.Apis.Core",
-          "Item2": "[1.55.0, )"
-        }
-      ]
-    },
-    "Google.Apis.Auth": {
-      "Id": "Google.Apis.Auth",
-      "Version": "1.55.0",
-      "Dependencies": [
-        {
-          "Item1": "Google.Apis.Core",
-          "Item2": "[1.55.0, )"
-        },
-        {
-          "Item1": "Google.Apis",
-          "Item2": "[1.55.0, )"
-        }
-      ]
-    },
-    "Google.Apis.Calendar.v3": {
-      "Id": "Google.Apis.Calendar.v3",
-      "Version": "1.55.0.2554",
-      "Dependencies": [
-        {
-          "Item1": "Google.Apis",
-          "Item2": "[1.55.0, )"
-        },
-        {
-          "Item1": "Google.Apis.Auth",
-          "Item2": "[1.55.0, )"
-        }
-      ]
-    },
-    "Google.Apis.Core": {
-      "Id": "Google.Apis.Core",
-      "Version": "1.55.0",
-      "Dependencies": [
-        {
-          "Item1": "Newtonsoft.Json",
-          "Item2": "[13.0.1, )"
-        }
-      ]
-    },
-    "Google.Apis.Gmail.v1": {
-      "Id": "Google.Apis.Gmail.v1",
-      "Version": "1.55.0.2510",
-      "Dependencies": [
-        {
-          "Item1": "Google.Apis",
-          "Item2": "[1.55.0, )"
-        },
-        {
-          "Item1": "Google.Apis.Auth",
-          "Item2": "[1.55.0, )"
-        }
-      ]
-    },
-    "Google.Apis.PeopleService.v1": {
-      "Id": "Google.Apis.PeopleService.v1",
-      "Version": "1.55.0.2567",
-      "Dependencies": [
-        {
-          "Item1": "Google.Apis",
-          "Item2": "[1.55.0, )"
-        },
-        {
-          "Item1": "Google.Apis.Auth",
-          "Item2": "[1.55.0, )"
-        }
-      ]
-    },
-    "HtmlAgilityPack": {
-      "Id": "HtmlAgilityPack",
-      "Version": "1.11.38",
-      "Dependencies": []
-    },
-    "MailKit": {
-      "Id": "MailKit",
-      "Version": "3.1.1",
-      "Dependencies": [
-        {
-          "Item1": "MimeKit",
-          "Item2": "[3.1.1, )"
         }
       ]
     },
@@ -562,11 +305,6 @@
         }
       ]
     },
-    "Microsoft.Bcl.AsyncInterfaces": {
-      "Id": "Microsoft.Bcl.AsyncInterfaces",
-      "Version": "1.0.0",
-      "Dependencies": []
-    },
     "Microsoft.CodeAnalysis.Analyzers": {
       "Id": "Microsoft.CodeAnalysis.Analyzers",
       "Version": "3.0.0",
@@ -676,11 +414,6 @@
       "Version": "3.1.6",
       "Dependencies": []
     },
-    "Microsoft.Extensions.FileSystemGlobbing": {
-      "Id": "Microsoft.Extensions.FileSystemGlobbing",
-      "Version": "5.0.0",
-      "Dependencies": []
-    },
     "Microsoft.Extensions.Logging": {
       "Id": "Microsoft.Extensions.Logging",
       "Version": "3.1.6",
@@ -726,112 +459,6 @@
       "Id": "Microsoft.Extensions.Primitives",
       "Version": "3.1.6",
       "Dependencies": []
-    },
-    "Microsoft.Graph": {
-      "Id": "Microsoft.Graph",
-      "Version": "4.11.0",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.Graph.Core",
-          "Item2": "[2.0.5, )"
-        }
-      ]
-    },
-    "Microsoft.Graph.Core": {
-      "Id": "Microsoft.Graph.Core",
-      "Version": "2.0.5",
-      "Dependencies": [
-        {
-          "Item1": "Azure.Core",
-          "Item2": "[1.18.0, )"
-        },
-        {
-          "Item1": "Microsoft.Identity.Client",
-          "Item2": "[4.35.1, )"
-        },
-        {
-          "Item1": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
-          "Item2": "[6.12.2, )"
-        },
-        {
-          "Item1": "System.Diagnostics.DiagnosticSource",
-          "Item2": "[4.7.1, )"
-        },
-        {
-          "Item1": "System.Security.Claims",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Text.Json",
-          "Item2": "[5.0.2, )"
-        }
-      ]
-    },
-    "Microsoft.Identity.Client": {
-      "Id": "Microsoft.Identity.Client",
-      "Version": "4.35.1",
-      "Dependencies": []
-    },
-    "Microsoft.IdentityModel.JsonWebTokens": {
-      "Id": "Microsoft.IdentityModel.JsonWebTokens",
-      "Version": "6.12.2",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.IdentityModel.Tokens",
-          "Item2": "[6.12.2, )"
-        }
-      ]
-    },
-    "Microsoft.IdentityModel.Logging": {
-      "Id": "Microsoft.IdentityModel.Logging",
-      "Version": "6.12.2",
-      "Dependencies": []
-    },
-    "Microsoft.IdentityModel.Protocols": {
-      "Id": "Microsoft.IdentityModel.Protocols",
-      "Version": "6.12.2",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.IdentityModel.Logging",
-          "Item2": "[6.12.2, )"
-        },
-        {
-          "Item1": "Microsoft.IdentityModel.Tokens",
-          "Item2": "[6.12.2, )"
-        }
-      ]
-    },
-    "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
-      "Id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
-      "Version": "6.12.2",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.IdentityModel.Protocols",
-          "Item2": "[6.12.2, )"
-        },
-        {
-          "Item1": "System.IdentityModel.Tokens.Jwt",
-          "Item2": "[6.12.2, )"
-        }
-      ]
-    },
-    "Microsoft.IdentityModel.Tokens": {
-      "Id": "Microsoft.IdentityModel.Tokens",
-      "Version": "6.12.2",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.IdentityModel.Logging",
-          "Item2": "[6.12.2, )"
-        },
-        {
-          "Item1": "Microsoft.CSharp",
-          "Item2": "[4.5.0, )"
-        },
-        {
-          "Item1": "System.Security.Cryptography.Cng",
-          "Item2": "[4.5.0, )"
-        }
-      ]
     },
     "Microsoft.Management.Infrastructure": {
       "Id": "Microsoft.Management.Infrastructure",
@@ -1104,11 +731,6 @@
       "Version": "10.3.0",
       "Dependencies": []
     },
-    "Microsoft.VisualStudio.OLE.Interop": {
-      "Id": "Microsoft.VisualStudio.OLE.Interop",
-      "Version": "16.7.30328.74",
-      "Dependencies": []
-    },
     "Microsoft.Win32.Primitives": {
       "Id": "Microsoft.Win32.Primitives",
       "Version": "4.3.0",
@@ -1366,20 +988,6 @@
       "Version": "7.1.0",
       "Dependencies": []
     },
-    "MimeKit": {
-      "Id": "MimeKit",
-      "Version": "3.1.1",
-      "Dependencies": [
-        {
-          "Item1": "System.Security.Cryptography.Pkcs",
-          "Item2": "[6.0.0, )"
-        },
-        {
-          "Item1": "Portable.BouncyCastle",
-          "Item2": "[1.9.0, )"
-        }
-      ]
-    },
     "Namotion.Reflection": {
       "Id": "Namotion.Reflection",
       "Version": "1.0.14",
@@ -1577,115 +1185,6 @@
       "Version": "13.0.1",
       "Dependencies": []
     },
-    "Nito.AsyncEx": {
-      "Id": "Nito.AsyncEx",
-      "Version": "5.1.0",
-      "Dependencies": [
-        {
-          "Item1": "Nito.AsyncEx.Context",
-          "Item2": "[5.1.0, )"
-        },
-        {
-          "Item1": "Nito.AsyncEx.Coordination",
-          "Item2": "[5.1.0, )"
-        },
-        {
-          "Item1": "Nito.AsyncEx.Interop.WaitHandles",
-          "Item2": "[5.1.0, )"
-        },
-        {
-          "Item1": "Nito.AsyncEx.Oop",
-          "Item2": "[5.1.0, )"
-        },
-        {
-          "Item1": "Nito.AsyncEx.Tasks",
-          "Item2": "[5.1.0, )"
-        },
-        {
-          "Item1": "Nito.Cancellation",
-          "Item2": "[1.1.0, )"
-        }
-      ]
-    },
-    "Nito.AsyncEx.Context": {
-      "Id": "Nito.AsyncEx.Context",
-      "Version": "5.1.0",
-      "Dependencies": [
-        {
-          "Item1": "Nito.AsyncEx.Tasks",
-          "Item2": "[5.1.0, )"
-        }
-      ]
-    },
-    "Nito.AsyncEx.Coordination": {
-      "Id": "Nito.AsyncEx.Coordination",
-      "Version": "5.1.0",
-      "Dependencies": [
-        {
-          "Item1": "Nito.AsyncEx.Tasks",
-          "Item2": "[5.1.0, )"
-        },
-        {
-          "Item1": "Nito.Collections.Deque",
-          "Item2": "[1.1.0, )"
-        }
-      ]
-    },
-    "Nito.AsyncEx.Interop.WaitHandles": {
-      "Id": "Nito.AsyncEx.Interop.WaitHandles",
-      "Version": "5.1.0",
-      "Dependencies": [
-        {
-          "Item1": "Nito.AsyncEx.Tasks",
-          "Item2": "[5.1.0, )"
-        }
-      ]
-    },
-    "Nito.AsyncEx.Oop": {
-      "Id": "Nito.AsyncEx.Oop",
-      "Version": "5.1.0",
-      "Dependencies": [
-        {
-          "Item1": "Nito.AsyncEx.Coordination",
-          "Item2": "[5.1.0, )"
-        }
-      ]
-    },
-    "Nito.AsyncEx.Tasks": {
-      "Id": "Nito.AsyncEx.Tasks",
-      "Version": "5.1.0",
-      "Dependencies": [
-        {
-          "Item1": "Nito.Disposables",
-          "Item2": "[2.2.0, )"
-        }
-      ]
-    },
-    "Nito.Cancellation": {
-      "Id": "Nito.Cancellation",
-      "Version": "1.1.0",
-      "Dependencies": [
-        {
-          "Item1": "Nito.Disposables",
-          "Item2": "[2.2.0, )"
-        }
-      ]
-    },
-    "Nito.Collections.Deque": {
-      "Id": "Nito.Collections.Deque",
-      "Version": "1.1.0",
-      "Dependencies": []
-    },
-    "Nito.Disposables": {
-      "Id": "Nito.Disposables",
-      "Version": "2.2.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Collections.Immutable",
-          "Item2": "[1.4.0, )"
-        }
-      ]
-    },
     "NJsonSchema": {
       "Id": "NJsonSchema",
       "Version": "10.2.2",
@@ -1705,36 +1204,9 @@
       "Version": "4.5.11",
       "Dependencies": []
     },
-    "NPOI": {
-      "Id": "NPOI",
-      "Version": "2.5.5",
-      "Dependencies": [
-        {
-          "Item1": "System.Configuration.ConfigurationManager",
-          "Item2": "[4.5.0, )"
-        },
-        {
-          "Item1": "System.Drawing.Common",
-          "Item2": "[4.5.0, )"
-        },
-        {
-          "Item1": "SharpZipLib",
-          "Item2": "[1.3.2, )"
-        },
-        {
-          "Item1": "Portable.BouncyCastle",
-          "Item2": "[1.8.9, )"
-        }
-      ]
-    },
     "Polly": {
       "Id": "Polly",
       "Version": "7.1.0",
-      "Dependencies": []
-    },
-    "Portable.BouncyCastle": {
-      "Id": "Portable.BouncyCastle",
-      "Version": "1.9.0",
       "Dependencies": []
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
@@ -1987,8 +1459,29 @@
     },
     "System.Buffers": {
       "Id": "System.Buffers",
-      "Version": "4.5.1",
-      "Dependencies": []
+      "Version": "4.3.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Diagnostics.Debug",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Diagnostics.Tracing",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Resources.ResourceManager",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Threading",
+          "Item2": "[4.3.0, )"
+        }
+      ]
     },
     "System.CodeDom": {
       "Id": "System.CodeDom",
@@ -2125,7 +1618,7 @@
     },
     "System.Data.DataSetExtensions": {
       "Id": "System.Data.DataSetExtensions",
-      "Version": "4.6.0-preview3.19128.7",
+      "Version": "4.5.0",
       "Dependencies": []
     },
     "System.Data.Odbc": {
@@ -2198,7 +1691,7 @@
     },
     "System.Diagnostics.DiagnosticSource": {
       "Id": "System.Diagnostics.DiagnosticSource",
-      "Version": "4.7.1",
+      "Version": "4.6.0",
       "Dependencies": []
     },
     "System.Diagnostics.EventLog": {
@@ -2363,7 +1856,7 @@
     },
     "System.Formats.Asn1": {
       "Id": "System.Formats.Asn1",
-      "Version": "6.0.0",
+      "Version": "5.0.0",
       "Dependencies": []
     },
     "System.Globalization": {
@@ -2433,20 +1926,6 @@
         {
           "Item1": "System.Runtime.InteropServices",
           "Item2": "[4.3.0, )"
-        }
-      ]
-    },
-    "System.IdentityModel.Tokens.Jwt": {
-      "Id": "System.IdentityModel.Tokens.Jwt",
-      "Version": "6.12.2",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.IdentityModel.JsonWebTokens",
-          "Item2": "[6.12.2, )"
-        },
-        {
-          "Item1": "Microsoft.IdentityModel.Tokens",
-          "Item2": "[6.12.2, )"
         }
       ]
     },
@@ -2883,20 +2362,6 @@
       "Version": "4.5.4",
       "Dependencies": []
     },
-    "System.Memory.Data": {
-      "Id": "System.Memory.Data",
-      "Version": "1.0.2",
-      "Dependencies": [
-        {
-          "Item1": "System.Text.Encodings.Web",
-          "Item2": "[4.7.2, )"
-        },
-        {
-          "Item1": "System.Text.Json",
-          "Item2": "[4.6.0, )"
-        }
-      ]
-    },
     "System.Net.Http": {
       "Id": "System.Net.Http",
       "Version": "4.3.4",
@@ -3063,11 +2528,6 @@
           "Item2": "[4.3.0, )"
         }
       ]
-    },
-    "System.Numerics.Vectors": {
-      "Id": "System.Numerics.Vectors",
-      "Version": "4.5.0",
-      "Dependencies": []
     },
     "System.ObjectModel": {
       "Id": "System.ObjectModel",
@@ -3414,40 +2874,6 @@
         }
       ]
     },
-    "System.Security.Claims": {
-      "Id": "System.Security.Claims",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Collections",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Globalization",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.IO",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Resources.ResourceManager",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime.Extensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Security.Principal",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
     "System.Security.Cryptography.Algorithms": {
       "Id": "System.Security.Cryptography.Algorithms",
       "Version": "4.3.0",
@@ -3692,11 +3118,15 @@
     },
     "System.Security.Cryptography.Pkcs": {
       "Id": "System.Security.Cryptography.Pkcs",
-      "Version": "6.0.0",
+      "Version": "5.0.0",
       "Dependencies": [
         {
           "Item1": "System.Formats.Asn1",
-          "Item2": "[6.0.0, )"
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "System.Security.Cryptography.Cng",
+          "Item2": "[5.0.0, )"
         }
       ]
     },
@@ -3873,16 +3303,6 @@
         }
       ]
     },
-    "System.Security.Principal": {
-      "Id": "System.Security.Principal",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Runtime",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
     "System.Security.Principal.Windows": {
       "Id": "System.Security.Principal.Windows",
       "Version": "5.0.0",
@@ -4022,11 +3442,6 @@
     "System.Text.Encodings.Web": {
       "Id": "System.Text.Encodings.Web",
       "Version": "5.0.0",
-      "Dependencies": []
-    },
-    "System.Text.Json": {
-      "Id": "System.Text.Json",
-      "Version": "5.0.2",
       "Dependencies": []
     },
     "System.Text.RegularExpressions": {
@@ -4268,156 +3683,10 @@
         }
       ]
     },
-    "UiPath.ConnectionClient": {
-      "Id": "UiPath.ConnectionClient",
-      "Version": "1.4.1",
-      "Dependencies": [
-        {
-          "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
-        },
-        {
-          "Item1": "Nito.AsyncEx",
-          "Item2": "[5.1.0, )"
-        },
-        {
-          "Item1": "System.Net.Http",
-          "Item2": "[4.3.4, )"
-        },
-        {
-          "Item1": "System.Runtime.Caching",
-          "Item2": "[5.0.0, )"
-        },
-        {
-          "Item1": "UiPath.Telemetry.Client",
-          "Item2": "[1.5.3, )"
-        }
-      ]
-    },
-    "UiPath.Excel.Activities": {
-      "Id": "UiPath.Excel.Activities",
-      "Version": "2.16.2",
-      "Dependencies": [
-        {
-          "Item1": "ClosedXML",
-          "Item2": "[0.95.4, )"
-        },
-        {
-          "Item1": "CsvHelper",
-          "Item2": "[15.0.5, )"
-        },
-        {
-          "Item1": "DocumentFormat.OpenXml",
-          "Item2": "[2.12.1, )"
-        },
-        {
-          "Item1": "Microsoft.VisualStudio.OLE.Interop",
-          "Item2": "[16.7.30328.74, )"
-        },
-        {
-          "Item1": "NPOI",
-          "Item2": "[2.5.5, )"
-        },
-        {
-          "Item1": "SharpZipLib",
-          "Item2": "[1.3.3, )"
-        },
-        {
-          "Item1": "System.Text.Encoding.CodePages",
-          "Item2": "[4.5.1, )"
-        },
-        {
-          "Item1": "UiPath.Platform",
-          "Item2": "[22.4.0, )"
-        },
-        {
-          "Item1": "UiPath.Telemetry.Client",
-          "Item2": "[1.5.3, )"
-        }
-      ]
-    },
     "UiPath.ImageProcessing": {
       "Id": "UiPath.ImageProcessing",
       "Version": "22.4.1",
       "Dependencies": []
-    },
-    "UiPath.Mail.Activities": {
-      "Id": "UiPath.Mail.Activities",
-      "Version": "1.18.2",
-      "Dependencies": [
-        {
-          "Item1": "Google.Apis.Calendar.v3",
-          "Item2": "[1.55.0.2554, )"
-        },
-        {
-          "Item1": "Google.Apis.Gmail.v1",
-          "Item2": "[1.55.0.2510, )"
-        },
-        {
-          "Item1": "Google.Apis.PeopleService.v1",
-          "Item2": "[1.55.0.2567, )"
-        },
-        {
-          "Item1": "HtmlAgilityPack",
-          "Item2": "[1.11.38, )"
-        },
-        {
-          "Item1": "MailKit",
-          "Item2": "[3.1.1, )"
-        },
-        {
-          "Item1": "Microsoft.Extensions.FileSystemGlobbing",
-          "Item2": "[5.0.0, )"
-        },
-        {
-          "Item1": "Microsoft.Graph",
-          "Item2": "[4.11.0, )"
-        },
-        {
-          "Item1": "Newtonsoft.Json",
-          "Item2": "[13.0.1, )"
-        },
-        {
-          "Item1": "System.Configuration.ConfigurationManager",
-          "Item2": "[5.0.0, )"
-        },
-        {
-          "Item1": "System.Data.DataSetExtensions",
-          "Item2": "[4.6.0-preview3.19128.7, )"
-        },
-        {
-          "Item1": "System.IdentityModel.Tokens.Jwt",
-          "Item2": "[6.12.2, )"
-        },
-        {
-          "Item1": "System.Net.Http",
-          "Item2": "[4.3.4, )"
-        },
-        {
-          "Item1": "System.Security.Cryptography.ProtectedData",
-          "Item2": "[5.0.0, )"
-        },
-        {
-          "Item1": "System.ValueTuple",
-          "Item2": "[4.5.0, )"
-        },
-        {
-          "Item1": "UiPath.Activities.RuntimeGovernance",
-          "Item2": "[1.1.6, )"
-        },
-        {
-          "Item1": "UiPath.ConnectionClient",
-          "Item2": "[1.4.1, )"
-        },
-        {
-          "Item1": "UiPath.Platform",
-          "Item2": "[22.4.0, )"
-        },
-        {
-          "Item1": "UiPath.Telemetry.Client",
-          "Item2": "[1.5.3, )"
-        }
-      ]
     },
     "UiPath.OCR.Activities": {
       "Id": "UiPath.OCR.Activities",
@@ -4495,7 +3764,7 @@
     },
     "UiPath.System.Activities": {
       "Id": "UiPath.System.Activities",
-      "Version": "22.10.4",
+      "Version": "22.10.5",
       "Dependencies": [
         {
           "Item1": "CsvHelper",
@@ -4637,134 +3906,13 @@
   "AllPackages": [
     {
       "Package": {
-        "Id": "Azure.Core",
-        "Version": "1.18.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\azure.core\\1.18.0\\lib\\net5.0\\Azure.Core.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\azure.core\\1.18.0"
-    },
-    {
-      "Package": {
-        "Id": "ClosedXML",
-        "Version": "0.95.4"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\closedxml\\0.95.4\\lib\\netstandard2.0\\ClosedXML.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\closedxml\\0.95.4"
-    },
-    {
-      "Package": {
         "Id": "CsvHelper",
         "Version": "16.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\csvhelper\\16.0.0\\lib\\netstandard2.1\\CsvHelper.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\csvhelper\\16.0.0\\lib\\netstandard2.1\\CsvHelper.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\csvhelper\\16.0.0"
-    },
-    {
-      "Package": {
-        "Id": "DocumentFormat.OpenXml",
-        "Version": "2.12.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\documentformat.openxml\\2.12.1\\lib\\netstandard2.0\\DocumentFormat.OpenXml.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\documentformat.openxml\\2.12.1"
-    },
-    {
-      "Package": {
-        "Id": "ExcelNumberFormat",
-        "Version": "1.0.10"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\excelnumberformat\\1.0.10\\lib\\netstandard2.0\\ExcelNumberFormat.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\excelnumberformat\\1.0.10"
-    },
-    {
-      "Package": {
-        "Id": "Google.Apis",
-        "Version": "1.55.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis\\1.55.0\\lib\\netstandard2.0\\Google.Apis.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis\\1.55.0"
-    },
-    {
-      "Package": {
-        "Id": "Google.Apis.Auth",
-        "Version": "1.55.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.PlatformServices.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.auth\\1.55.0"
-    },
-    {
-      "Package": {
-        "Id": "Google.Apis.Calendar.v3",
-        "Version": "1.55.0.2554"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554\\lib\\netstandard2.0\\Google.Apis.Calendar.v3.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554"
-    },
-    {
-      "Package": {
-        "Id": "Google.Apis.Core",
-        "Version": "1.55.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.core\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Core.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.core\\1.55.0"
-    },
-    {
-      "Package": {
-        "Id": "Google.Apis.Gmail.v1",
-        "Version": "1.55.0.2510"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\lib\\netstandard2.0\\Google.Apis.Gmail.v1.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510"
-    },
-    {
-      "Package": {
-        "Id": "Google.Apis.PeopleService.v1",
-        "Version": "1.55.0.2567"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567\\lib\\netstandard2.0\\Google.Apis.PeopleService.v1.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567"
-    },
-    {
-      "Package": {
-        "Id": "HtmlAgilityPack",
-        "Version": "1.11.38"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\htmlagilitypack\\1.11.38\\lib\\netstandard2.0\\HtmlAgilityPack.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\htmlagilitypack\\1.11.38"
-    },
-    {
-      "Package": {
-        "Id": "MailKit",
-        "Version": "3.1.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\mailkit\\3.1.1\\lib\\net6.0\\MailKit.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\mailkit\\3.1.1"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\csvhelper\\16.0.0"
     },
     {
       "Package": {
@@ -4772,9 +3920,9 @@
         "Version": "0.21.1"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\markdig.signed\\0.21.1\\lib\\netcoreapp3.1\\Markdig.Signed.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\markdig.signed\\0.21.1\\lib\\netcoreapp3.1\\Markdig.Signed.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\markdig.signed\\0.21.1"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\markdig.signed\\0.21.1"
     },
     {
       "Package": {
@@ -4782,9 +3930,9 @@
         "Version": "2.15.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.applicationinsights\\2.15.0\\lib\\netstandard2.0\\Microsoft.ApplicationInsights.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.applicationinsights\\2.15.0\\lib\\netstandard2.0\\Microsoft.ApplicationInsights.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.applicationinsights\\2.15.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.applicationinsights\\2.15.0"
     },
     {
       "Package": {
@@ -4792,9 +3940,9 @@
         "Version": "2.4.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib\\netstandard2.0\\Microsoft.AspNet.SignalR.Client.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib\\netstandard2.0\\Microsoft.AspNet.SignalR.Client.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0"
     },
     {
       "Package": {
@@ -4802,9 +3950,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.Connections.Abstractions.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.Connections.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -4812,9 +3960,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib\\netstandard2.1\\Microsoft.AspNetCore.Http.Connections.Client.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib\\netstandard2.1\\Microsoft.AspNetCore.Http.Connections.Client.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6"
     },
     {
       "Package": {
@@ -4822,9 +3970,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.Http.Connections.Common.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.Http.Connections.Common.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6"
     },
     {
       "Package": {
@@ -4832,9 +3980,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.Http.Features.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.Http.Features.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6"
     },
     {
       "Package": {
@@ -4842,9 +3990,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6"
     },
     {
       "Package": {
@@ -4852,9 +4000,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib\\netstandard2.1\\Microsoft.AspNetCore.SignalR.Client.Core.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib\\netstandard2.1\\Microsoft.AspNetCore.SignalR.Client.Core.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6"
     },
     {
       "Package": {
@@ -4862,9 +4010,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.SignalR.Common.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.SignalR.Common.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6"
     },
     {
       "Package": {
@@ -4872,9 +4020,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6"
     },
     {
       "Package": {
@@ -4882,19 +4030,9 @@
         "Version": "7.0.1"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib\\netstandard2.0\\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib\\netstandard2.0\\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.Bcl.AsyncInterfaces",
-        "Version": "1.0.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\lib\\netstandard2.1\\Microsoft.Bcl.AsyncInterfaces.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1"
     },
     {
       "Package": {
@@ -4902,7 +4040,7 @@
         "Version": "3.0.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0"
     },
     {
       "Package": {
@@ -4910,9 +4048,9 @@
         "Version": "3.8.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0"
     },
     {
       "Package": {
@@ -4920,9 +4058,9 @@
         "Version": "3.8.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.CSharp.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.CSharp.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0"
     },
     {
       "Package": {
@@ -4930,9 +4068,9 @@
         "Version": "3.8.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.8.0\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.VisualBasic.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.8.0\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.VisualBasic.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.8.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.8.0"
     },
     {
       "Package": {
@@ -4940,9 +4078,9 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.csharp\\4.7.0\\lib\\netcoreapp2.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\lib\\netcoreapp2.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.csharp\\4.7.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.csharp\\4.7.0"
     },
     {
       "Package": {
@@ -4950,9 +4088,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6"
     },
     {
       "Package": {
@@ -4960,9 +4098,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.Abstractions.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -4970,9 +4108,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.Binder.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.Binder.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6"
     },
     {
       "Package": {
@@ -4980,9 +4118,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.DependencyInjection.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.DependencyInjection.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6"
     },
     {
       "Package": {
@@ -4990,19 +4128,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.Extensions.FileSystemGlobbing",
-        "Version": "5.0.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\lib\\netstandard2.0\\Microsoft.Extensions.FileSystemGlobbing.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -5010,9 +4138,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Logging.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Logging.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6"
     },
     {
       "Package": {
@@ -5020,9 +4148,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -5030,9 +4158,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Options.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Options.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.options\\3.1.6"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.options\\3.1.6"
     },
     {
       "Package": {
@@ -5040,89 +4168,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Primitives.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Primitives.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.Graph",
-        "Version": "4.11.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.graph\\4.11.0\\lib\\netstandard2.0\\Microsoft.Graph.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.graph\\4.11.0"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.Graph.Core",
-        "Version": "2.0.5"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.graph.core\\2.0.5\\lib\\netstandard2.0\\Microsoft.Graph.Core.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.graph.core\\2.0.5"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.Identity.Client",
-        "Version": "4.35.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib\\netcoreapp2.1\\Microsoft.Identity.Client.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identity.client\\4.35.1"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.IdentityModel.JsonWebTokens",
-        "Version": "6.12.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\lib\\netstandard2.0\\Microsoft.IdentityModel.JsonWebTokens.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.IdentityModel.Logging",
-        "Version": "6.12.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib\\netstandard2.0\\Microsoft.IdentityModel.Logging.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.IdentityModel.Protocols",
-        "Version": "6.12.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.12.2\\lib\\netstandard2.0\\Microsoft.IdentityModel.Protocols.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.12.2"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
-        "Version": "6.12.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.12.2\\lib\\netstandard2.0\\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.12.2"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.IdentityModel.Tokens",
-        "Version": "6.12.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\lib\\netstandard2.0\\Microsoft.IdentityModel.Tokens.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6"
     },
     {
       "Package": {
@@ -5130,9 +4178,9 @@
         "Version": "2.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.management.infrastructure\\2.0.0\\lib\\netstandard1.6\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.management.infrastructure\\2.0.0\\lib\\netstandard1.6\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.management.infrastructure\\2.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.management.infrastructure\\2.0.0"
     },
     {
       "Package": {
@@ -5140,7 +4188,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.management.infrastructure.cimcmdlets\\7.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.management.infrastructure.cimcmdlets\\7.1.0"
     },
     {
       "Package": {
@@ -5148,7 +4196,7 @@
         "Version": "2.0.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.management.infrastructure.runtime.unix\\2.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.management.infrastructure.runtime.unix\\2.0.0"
     },
     {
       "Package": {
@@ -5156,7 +4204,7 @@
         "Version": "2.0.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0"
     },
     {
       "Package": {
@@ -5164,9 +4212,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\lib\\netstandard1.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\lib\\netstandard1.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0"
     },
     {
       "Package": {
@@ -5174,9 +4222,9 @@
         "Version": "1.1.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\lib\\netstandard1.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\lib\\netstandard1.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0"
     },
     {
       "Package": {
@@ -5184,7 +4232,7 @@
         "Version": "1.0.1"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.netcore.windows.apisets\\1.0.1"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.netcore.windows.apisets\\1.0.1"
     },
     {
       "Package": {
@@ -5192,7 +4240,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.commands.diagnostics\\7.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.commands.diagnostics\\7.1.0"
     },
     {
       "Package": {
@@ -5200,7 +4248,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.commands.management\\7.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.commands.management\\7.1.0"
     },
     {
       "Package": {
@@ -5208,7 +4256,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.commands.utility\\7.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.commands.utility\\7.1.0"
     },
     {
       "Package": {
@@ -5216,7 +4264,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.consolehost\\7.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.consolehost\\7.1.0"
     },
     {
       "Package": {
@@ -5224,7 +4272,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.coreclr.eventing\\7.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.coreclr.eventing\\7.1.0"
     },
     {
       "Package": {
@@ -5232,7 +4280,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.markdownrender\\7.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.markdownrender\\7.1.0"
     },
     {
       "Package": {
@@ -5240,7 +4288,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.native\\7.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.native\\7.1.0"
     },
     {
       "Package": {
@@ -5248,7 +4296,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.sdk\\7.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.sdk\\7.1.0"
     },
     {
       "Package": {
@@ -5256,7 +4304,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.powershell.security\\7.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.powershell.security\\7.1.0"
     },
     {
       "Package": {
@@ -5264,9 +4312,9 @@
         "Version": "2.3.21"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib\\netstandard2.0\\Microsoft.Rest.ClientRuntime.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib\\netstandard2.0\\Microsoft.Rest.ClientRuntime.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21"
     },
     {
       "Package": {
@@ -5274,9 +4322,9 @@
         "Version": "3.3.18"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\lib\\netstandard1.4\\Microsoft.Rest.ClientRuntime.Azure.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\lib\\netstandard1.4\\Microsoft.Rest.ClientRuntime.Azure.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18"
     },
     {
       "Package": {
@@ -5284,19 +4332,9 @@
         "Version": "10.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.visualbasic\\10.3.0\\lib\\netcoreapp2.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.visualbasic\\10.3.0\\lib\\netcoreapp2.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.visualbasic\\10.3.0"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.VisualStudio.OLE.Interop",
-        "Version": "16.7.30328.74"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\lib\\netstandard2.0\\Microsoft.VisualStudio.OLE.Interop.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.visualbasic\\10.3.0"
     },
     {
       "Package": {
@@ -5304,7 +4342,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0"
     },
     {
       "Package": {
@@ -5312,9 +4350,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\lib\\netstandard2.0\\Microsoft.Win32.Registry.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\lib\\netstandard2.0\\Microsoft.Win32.Registry.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.win32.registry\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.win32.registry\\5.0.0"
     },
     {
       "Package": {
@@ -5322,9 +4360,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.win32.registry.accesscontrol\\5.0.0\\lib\\netstandard2.0\\Microsoft.Win32.Registry.AccessControl.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.win32.registry.accesscontrol\\5.0.0\\lib\\netstandard2.0\\Microsoft.Win32.Registry.AccessControl.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.win32.registry.accesscontrol\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.win32.registry.accesscontrol\\5.0.0"
     },
     {
       "Package": {
@@ -5332,9 +4370,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\lib\\netstandard2.0\\Microsoft.Win32.SystemEvents.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\lib\\netstandard2.0\\Microsoft.Win32.SystemEvents.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0"
     },
     {
       "Package": {
@@ -5342,7 +4380,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.windows.compatibility\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.windows.compatibility\\5.0.0"
     },
     {
       "Package": {
@@ -5350,7 +4388,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.wsman.management\\7.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.wsman.management\\7.1.0"
     },
     {
       "Package": {
@@ -5358,17 +4396,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\microsoft.wsman.runtime\\7.1.0"
-    },
-    {
-      "Package": {
-        "Id": "MimeKit",
-        "Version": "3.1.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\mimekit\\3.1.1\\lib\\net6.0\\MimeKit.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\mimekit\\3.1.1"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\microsoft.wsman.runtime\\7.1.0"
     },
     {
       "Package": {
@@ -5376,9 +4404,9 @@
         "Version": "1.0.14"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\namotion.reflection\\1.0.14\\lib\\netstandard2.0\\Namotion.Reflection.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\namotion.reflection\\1.0.14\\lib\\netstandard2.0\\Namotion.Reflection.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\namotion.reflection\\1.0.14"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\namotion.reflection\\1.0.14"
     },
     {
       "Package": {
@@ -5386,7 +4414,7 @@
         "Version": "1.6.1"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\netstandard.library\\1.6.1"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\netstandard.library\\1.6.1"
     },
     {
       "Package": {
@@ -5394,97 +4422,9 @@
         "Version": "13.0.1"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\newtonsoft.json\\13.0.1"
-    },
-    {
-      "Package": {
-        "Id": "Nito.AsyncEx",
-        "Version": "5.1.0"
-      },
-      "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex\\5.1.0"
-    },
-    {
-      "Package": {
-        "Id": "Nito.AsyncEx.Context",
-        "Version": "5.1.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.context\\5.1.0\\lib\\netstandard2.0\\Nito.AsyncEx.Context.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.context\\5.1.0"
-    },
-    {
-      "Package": {
-        "Id": "Nito.AsyncEx.Coordination",
-        "Version": "5.1.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.coordination\\5.1.0\\lib\\netstandard2.0\\Nito.AsyncEx.Coordination.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.coordination\\5.1.0"
-    },
-    {
-      "Package": {
-        "Id": "Nito.AsyncEx.Interop.WaitHandles",
-        "Version": "5.1.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.interop.waithandles\\5.1.0\\lib\\netstandard2.0\\Nito.AsyncEx.Interop.WaitHandles.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.interop.waithandles\\5.1.0"
-    },
-    {
-      "Package": {
-        "Id": "Nito.AsyncEx.Oop",
-        "Version": "5.1.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.oop\\5.1.0\\lib\\netstandard2.0\\Nito.AsyncEx.Oop.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.oop\\5.1.0"
-    },
-    {
-      "Package": {
-        "Id": "Nito.AsyncEx.Tasks",
-        "Version": "5.1.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.tasks\\5.1.0\\lib\\netstandard2.0\\Nito.AsyncEx.Tasks.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.asyncex.tasks\\5.1.0"
-    },
-    {
-      "Package": {
-        "Id": "Nito.Cancellation",
-        "Version": "1.1.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.cancellation\\1.1.0\\lib\\netstandard2.0\\Nito.Cancellation.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.cancellation\\1.1.0"
-    },
-    {
-      "Package": {
-        "Id": "Nito.Collections.Deque",
-        "Version": "1.1.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.collections.deque\\1.1.0\\lib\\netstandard2.0\\Nito.Collections.Deque.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.collections.deque\\1.1.0"
-    },
-    {
-      "Package": {
-        "Id": "Nito.Disposables",
-        "Version": "2.2.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.disposables\\2.2.0\\lib\\netstandard2.1\\Nito.Disposables.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\nito.disposables\\2.2.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\newtonsoft.json\\13.0.1"
     },
     {
       "Package": {
@@ -5492,9 +4432,9 @@
         "Version": "10.2.2"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\njsonschema\\10.2.2\\lib\\netstandard2.0\\NJsonSchema.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\njsonschema\\10.2.2\\lib\\netstandard2.0\\NJsonSchema.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\njsonschema\\10.2.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\njsonschema\\10.2.2"
     },
     {
       "Package": {
@@ -5502,22 +4442,9 @@
         "Version": "4.5.11"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\nlog\\4.5.11\\lib\\netstandard2.0\\NLog.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\nlog\\4.5.11\\lib\\netstandard2.0\\NLog.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\nlog\\4.5.11"
-    },
-    {
-      "Package": {
-        "Id": "NPOI",
-        "Version": "2.5.5"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\npoi\\2.5.5\\lib\\netstandard2.1\\NPOI.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\npoi\\2.5.5\\lib\\netstandard2.1\\NPOI.OOXML.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\npoi\\2.5.5\\lib\\netstandard2.1\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\npoi\\2.5.5\\lib\\netstandard2.1\\NPOI.OpenXmlFormats.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\npoi\\2.5.5"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\nlog\\4.5.11"
     },
     {
       "Package": {
@@ -5525,19 +4452,9 @@
         "Version": "7.1.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\polly\\7.1.0\\lib\\netstandard2.0\\Polly.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\polly\\7.1.0\\lib\\netstandard2.0\\Polly.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\polly\\7.1.0"
-    },
-    {
-      "Package": {
-        "Id": "Portable.BouncyCastle",
-        "Version": "1.9.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib\\netstandard2.0\\BouncyCastle.Crypto.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\portable.bouncycastle\\1.9.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\polly\\7.1.0"
     },
     {
       "Package": {
@@ -5545,7 +4462,7 @@
         "Version": "4.3.2"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
     },
     {
       "Package": {
@@ -5553,7 +4470,7 @@
         "Version": "4.3.2"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
     },
     {
       "Package": {
@@ -5561,7 +4478,7 @@
         "Version": "4.3.2"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
     },
     {
       "Package": {
@@ -5569,7 +4486,7 @@
         "Version": "5.0.0-rtm.20519.4"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\5.0.0-rtm.20519.4"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\5.0.0-rtm.20519.4"
     },
     {
       "Package": {
@@ -5577,7 +4494,7 @@
         "Version": "5.0.0-rtm.20519.4"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\5.0.0-rtm.20519.4"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\5.0.0-rtm.20519.4"
     },
     {
       "Package": {
@@ -5585,7 +4502,7 @@
         "Version": "5.0.0-rtm.20519.4"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\5.0.0-rtm.20519.4"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\5.0.0-rtm.20519.4"
     },
     {
       "Package": {
@@ -5593,9 +4510,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.native.system\\4.3.0\\lib\\netstandard1.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.native.system\\4.3.0\\lib\\netstandard1.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.native.system\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.native.system\\4.3.0"
     },
     {
       "Package": {
@@ -5603,7 +4520,7 @@
         "Version": "4.7.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0"
     },
     {
       "Package": {
@@ -5611,9 +4528,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.native.system.io.compression\\4.3.0\\lib\\netstandard1.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.native.system.io.compression\\4.3.0\\lib\\netstandard1.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.native.system.io.compression\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.native.system.io.compression\\4.3.0"
     },
     {
       "Package": {
@@ -5621,7 +4538,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.native.system.io.ports\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.native.system.io.ports\\5.0.0"
     },
     {
       "Package": {
@@ -5629,9 +4546,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.native.system.net.http\\4.3.0\\lib\\netstandard1.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.native.system.net.http\\4.3.0\\lib\\netstandard1.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.native.system.net.http\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.native.system.net.http\\4.3.0"
     },
     {
       "Package": {
@@ -5639,9 +4556,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.native.system.security.cryptography.apple\\4.3.0\\lib\\netstandard1.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.native.system.security.cryptography.apple\\4.3.0\\lib\\netstandard1.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.native.system.security.cryptography.apple\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.native.system.security.cryptography.apple\\4.3.0"
     },
     {
       "Package": {
@@ -5649,9 +4566,9 @@
         "Version": "4.3.2"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.native.system.security.cryptography.openssl\\4.3.2\\lib\\netstandard1.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.native.system.security.cryptography.openssl\\4.3.2\\lib\\netstandard1.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.native.system.security.cryptography.openssl\\4.3.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.native.system.security.cryptography.openssl\\4.3.2"
     },
     {
       "Package": {
@@ -5659,7 +4576,7 @@
         "Version": "4.3.2"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
     },
     {
       "Package": {
@@ -5667,7 +4584,7 @@
         "Version": "4.3.2"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
     },
     {
       "Package": {
@@ -5675,7 +4592,7 @@
         "Version": "5.0.0-rtm.20519.4"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\5.0.0-rtm.20519.4"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\5.0.0-rtm.20519.4"
     },
     {
       "Package": {
@@ -5683,7 +4600,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple\\4.3.0"
     },
     {
       "Package": {
@@ -5691,7 +4608,7 @@
         "Version": "4.3.2"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
     },
     {
       "Package": {
@@ -5699,7 +4616,7 @@
         "Version": "4.3.2"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
     },
     {
       "Package": {
@@ -5707,7 +4624,7 @@
         "Version": "4.3.2"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
     },
     {
       "Package": {
@@ -5715,7 +4632,7 @@
         "Version": "4.3.2"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
     },
     {
       "Package": {
@@ -5723,7 +4640,7 @@
         "Version": "4.3.2"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2"
     },
     {
       "Package": {
@@ -5731,7 +4648,7 @@
         "Version": "4.4.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0"
     },
     {
       "Package": {
@@ -5739,7 +4656,7 @@
         "Version": "4.4.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0"
     },
     {
       "Package": {
@@ -5747,7 +4664,7 @@
         "Version": "4.4.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0"
     },
     {
       "Package": {
@@ -5755,9 +4672,9 @@
         "Version": "1.3.3"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\sharpziplib\\1.3.3\\lib\\netstandard2.1\\ICSharpCode.SharpZipLib.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\sharpziplib\\1.3.3\\lib\\netstandard2.1\\ICSharpCode.SharpZipLib.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\sharpziplib\\1.3.3"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\sharpziplib\\1.3.3"
     },
     {
       "Package": {
@@ -5765,9 +4682,9 @@
         "Version": "1.0.0-20220715.4"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20220715.4\\lib\\net5.0-windows7.0\\System.Activities.ViewModels.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20220715.4\\lib\\net5.0-windows7.0\\System.Activities.ViewModels.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20220715.4"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20220715.4"
     },
     {
       "Package": {
@@ -5775,19 +4692,19 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.appcontext\\4.3.0\\lib\\netstandard1.6\\System.AppContext.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.appcontext\\4.3.0\\lib\\netstandard1.6\\System.AppContext.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.appcontext\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.appcontext\\4.3.0"
     },
     {
       "Package": {
         "Id": "System.Buffers",
-        "Version": "4.5.1"
+        "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.buffers\\4.5.1\\lib\\netcoreapp2.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.buffers\\4.3.0\\lib\\netstandard1.1\\System.Buffers.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.buffers\\4.5.1"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.buffers\\4.3.0"
     },
     {
       "Package": {
@@ -5795,9 +4712,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.codedom\\5.0.0\\lib\\netstandard2.0\\System.CodeDom.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.codedom\\5.0.0\\lib\\netstandard2.0\\System.CodeDom.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.codedom\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.codedom\\5.0.0"
     },
     {
       "Package": {
@@ -5805,7 +4722,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.collections\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.collections\\4.3.0"
     },
     {
       "Package": {
@@ -5813,9 +4730,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\lib\\netstandard1.3\\System.Collections.Concurrent.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\lib\\netstandard1.3\\System.Collections.Concurrent.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.collections.concurrent\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.collections.concurrent\\4.3.0"
     },
     {
       "Package": {
@@ -5823,9 +4740,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.collections.immutable\\5.0.0\\lib\\netstandard2.0\\System.Collections.Immutable.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.collections.immutable\\5.0.0\\lib\\netstandard2.0\\System.Collections.Immutable.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.collections.immutable\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.collections.immutable\\5.0.0"
     },
     {
       "Package": {
@@ -5833,9 +4750,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.componentmodel.composition\\5.0.0\\lib\\netcoreapp2.0\\System.ComponentModel.Composition.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.componentmodel.composition\\5.0.0\\lib\\netcoreapp2.0\\System.ComponentModel.Composition.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.componentmodel.composition\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.componentmodel.composition\\5.0.0"
     },
     {
       "Package": {
@@ -5843,9 +4760,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.componentmodel.composition.registration\\5.0.0\\lib\\netstandard2.1\\System.ComponentModel.Composition.Registration.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.componentmodel.composition.registration\\5.0.0\\lib\\netstandard2.1\\System.ComponentModel.Composition.Registration.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.componentmodel.composition.registration\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.componentmodel.composition.registration\\5.0.0"
     },
     {
       "Package": {
@@ -5853,9 +4770,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\lib\\netstandard2.0\\System.Configuration.ConfigurationManager.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\lib\\netstandard2.0\\System.Configuration.ConfigurationManager.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0"
     },
     {
       "Package": {
@@ -5863,17 +4780,17 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.console\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.console\\4.3.0"
     },
     {
       "Package": {
         "Id": "System.Data.DataSetExtensions",
-        "Version": "4.6.0-preview3.19128.7"
+        "Version": "4.5.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.data.datasetextensions\\4.6.0-preview3.19128.7\\lib\\netstandard2.0\\System.Data.DataSetExtensions.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\lib\\netstandard2.0\\System.Data.DataSetExtensions.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.data.datasetextensions\\4.6.0-preview3.19128.7"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.data.datasetextensions\\4.5.0"
     },
     {
       "Package": {
@@ -5881,9 +4798,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.data.odbc\\5.0.0\\lib\\netstandard2.0\\System.Data.Odbc.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.data.odbc\\5.0.0\\lib\\netstandard2.0\\System.Data.Odbc.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.data.odbc\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.data.odbc\\5.0.0"
     },
     {
       "Package": {
@@ -5891,9 +4808,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.data.oledb\\5.0.0\\lib\\netstandard2.0\\System.Data.OleDb.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.data.oledb\\5.0.0\\lib\\netstandard2.0\\System.Data.OleDb.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.data.oledb\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.data.oledb\\5.0.0"
     },
     {
       "Package": {
@@ -5901,9 +4818,9 @@
         "Version": "4.8.1"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\lib\\netcoreapp2.1\\System.Data.SqlClient.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\lib\\netcoreapp2.1\\System.Data.SqlClient.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.data.sqlclient\\4.8.1"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.data.sqlclient\\4.8.1"
     },
     {
       "Package": {
@@ -5911,17 +4828,17 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.diagnostics.debug\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.diagnostics.debug\\4.3.0"
     },
     {
       "Package": {
         "Id": "System.Diagnostics.DiagnosticSource",
-        "Version": "4.7.1"
+        "Version": "4.6.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\lib\\netstandard1.3\\System.Diagnostics.DiagnosticSource.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\lib\\netstandard1.3\\System.Diagnostics.DiagnosticSource.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0"
     },
     {
       "Package": {
@@ -5929,9 +4846,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.diagnostics.eventlog\\5.0.0\\lib\\netstandard2.0\\System.Diagnostics.EventLog.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.diagnostics.eventlog\\5.0.0\\lib\\netstandard2.0\\System.Diagnostics.EventLog.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.diagnostics.eventlog\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.diagnostics.eventlog\\5.0.0"
     },
     {
       "Package": {
@@ -5939,9 +4856,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0\\lib\\netstandard2.0\\System.Diagnostics.PerformanceCounter.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0\\lib\\netstandard2.0\\System.Diagnostics.PerformanceCounter.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0"
     },
     {
       "Package": {
@@ -5949,7 +4866,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.diagnostics.tools\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.diagnostics.tools\\4.3.0"
     },
     {
       "Package": {
@@ -5957,7 +4874,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0"
     },
     {
       "Package": {
@@ -5965,9 +4882,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.directoryservices\\5.0.0\\lib\\netstandard2.0\\System.DirectoryServices.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.directoryservices\\5.0.0\\lib\\netstandard2.0\\System.DirectoryServices.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.directoryservices\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.directoryservices\\5.0.0"
     },
     {
       "Package": {
@@ -5975,9 +4892,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.directoryservices.accountmanagement\\5.0.0\\lib\\netstandard2.0\\System.DirectoryServices.AccountManagement.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.directoryservices.accountmanagement\\5.0.0\\lib\\netstandard2.0\\System.DirectoryServices.AccountManagement.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.directoryservices.accountmanagement\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.directoryservices.accountmanagement\\5.0.0"
     },
     {
       "Package": {
@@ -5985,9 +4902,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.directoryservices.protocols\\5.0.0\\lib\\netstandard2.0\\System.DirectoryServices.Protocols.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.directoryservices.protocols\\5.0.0\\lib\\netstandard2.0\\System.DirectoryServices.Protocols.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.directoryservices.protocols\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.directoryservices.protocols\\5.0.0"
     },
     {
       "Package": {
@@ -5995,19 +4912,19 @@
         "Version": "5.0.2"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.drawing.common\\5.0.2\\lib\\netcoreapp3.0\\System.Drawing.Common.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.drawing.common\\5.0.2\\lib\\netcoreapp3.0\\System.Drawing.Common.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.drawing.common\\5.0.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.drawing.common\\5.0.2"
     },
     {
       "Package": {
         "Id": "System.Formats.Asn1",
-        "Version": "6.0.0"
+        "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.formats.asn1\\6.0.0\\lib\\net6.0\\System.Formats.Asn1.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.formats.asn1\\5.0.0\\lib\\netstandard2.0\\System.Formats.Asn1.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.formats.asn1\\6.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.formats.asn1\\5.0.0"
     },
     {
       "Package": {
@@ -6015,7 +4932,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.globalization\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.globalization\\4.3.0"
     },
     {
       "Package": {
@@ -6023,7 +4940,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.globalization.calendars\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.globalization.calendars\\4.3.0"
     },
     {
       "Package": {
@@ -6031,17 +4948,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.globalization.extensions\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.IdentityModel.Tokens.Jwt",
-        "Version": "6.12.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2\\lib\\netstandard2.0\\System.IdentityModel.Tokens.Jwt.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.globalization.extensions\\4.3.0"
     },
     {
       "Package": {
@@ -6049,7 +4956,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io\\4.3.0"
     },
     {
       "Package": {
@@ -6057,9 +4964,9 @@
         "Version": "3.0.10"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib\\netstandard2.0\\System.IO.Abstractions.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib\\netstandard2.0\\System.IO.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.abstractions\\3.0.10"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.abstractions\\3.0.10"
     },
     {
       "Package": {
@@ -6067,7 +4974,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.compression\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.compression\\4.3.0"
     },
     {
       "Package": {
@@ -6075,9 +4982,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\lib\\netstandard1.3\\System.IO.Compression.ZipFile.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\lib\\netstandard1.3\\System.IO.Compression.ZipFile.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0"
     },
     {
       "Package": {
@@ -6085,7 +4992,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.filesystem\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.filesystem\\4.3.0"
     },
     {
       "Package": {
@@ -6093,9 +5000,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\lib\\netstandard2.0\\System.IO.FileSystem.AccessControl.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\lib\\netstandard2.0\\System.IO.FileSystem.AccessControl.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0"
     },
     {
       "Package": {
@@ -6103,9 +5010,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\lib\\netstandard1.3\\System.IO.FileSystem.Primitives.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\lib\\netstandard1.3\\System.IO.FileSystem.Primitives.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0"
     },
     {
       "Package": {
@@ -6113,9 +5020,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.packaging\\5.0.0\\lib\\netstandard2.0\\System.IO.Packaging.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.packaging\\5.0.0\\lib\\netstandard2.0\\System.IO.Packaging.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.packaging\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.packaging\\5.0.0"
     },
     {
       "Package": {
@@ -6123,9 +5030,9 @@
         "Version": "4.7.1"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.pipelines\\4.7.1\\lib\\netcoreapp3.0\\System.IO.Pipelines.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.pipelines\\4.7.1\\lib\\netcoreapp3.0\\System.IO.Pipelines.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.pipelines\\4.7.1"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.pipelines\\4.7.1"
     },
     {
       "Package": {
@@ -6133,9 +5040,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.pipes.accesscontrol\\5.0.0\\lib\\net5.0\\System.IO.Pipes.AccessControl.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.pipes.accesscontrol\\5.0.0\\lib\\net5.0\\System.IO.Pipes.AccessControl.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.pipes.accesscontrol\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.pipes.accesscontrol\\5.0.0"
     },
     {
       "Package": {
@@ -6143,9 +5050,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.ports\\5.0.0\\lib\\netstandard2.0\\System.IO.Ports.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.ports\\5.0.0\\lib\\netstandard2.0\\System.IO.Ports.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.io.ports\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.io.ports\\5.0.0"
     },
     {
       "Package": {
@@ -6153,9 +5060,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.linq\\4.3.0\\lib\\netstandard1.6\\System.Linq.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.linq\\4.3.0\\lib\\netstandard1.6\\System.Linq.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.linq\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.linq\\4.3.0"
     },
     {
       "Package": {
@@ -6163,9 +5070,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.linq.expressions\\4.3.0\\lib\\netstandard1.6\\System.Linq.Expressions.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.linq.expressions\\4.3.0\\lib\\netstandard1.6\\System.Linq.Expressions.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.linq.expressions\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.linq.expressions\\4.3.0"
     },
     {
       "Package": {
@@ -6173,9 +5080,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.management\\5.0.0\\lib\\netstandard2.0\\System.Management.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.management\\5.0.0\\lib\\netstandard2.0\\System.Management.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.management\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.management\\5.0.0"
     },
     {
       "Package": {
@@ -6183,7 +5090,7 @@
         "Version": "7.1.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.management.automation\\7.1.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.management.automation\\7.1.0"
     },
     {
       "Package": {
@@ -6191,19 +5098,9 @@
         "Version": "4.5.4"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.memory\\4.5.4\\lib\\netcoreapp2.1\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.memory\\4.5.4\\lib\\netcoreapp2.1\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.memory\\4.5.4"
-    },
-    {
-      "Package": {
-        "Id": "System.Memory.Data",
-        "Version": "1.0.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.memory.data\\1.0.2\\lib\\netstandard2.0\\System.Memory.Data.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.memory.data\\1.0.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.memory\\4.5.4"
     },
     {
       "Package": {
@@ -6211,7 +5108,7 @@
         "Version": "4.3.4"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.net.http\\4.3.4"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.net.http\\4.3.4"
     },
     {
       "Package": {
@@ -6219,9 +5116,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.net.http.winhttphandler\\5.0.0\\lib\\netstandard2.0\\System.Net.Http.WinHttpHandler.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.net.http.winhttphandler\\5.0.0\\lib\\netstandard2.0\\System.Net.Http.WinHttpHandler.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.net.http.winhttphandler\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.net.http.winhttphandler\\5.0.0"
     },
     {
       "Package": {
@@ -6229,7 +5126,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.net.primitives\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.net.primitives\\4.3.0"
     },
     {
       "Package": {
@@ -6237,17 +5134,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.net.sockets\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Numerics.Vectors",
-        "Version": "4.5.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\lib\\netcoreapp2.0\\_._"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.numerics.vectors\\4.5.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.net.sockets\\4.3.0"
     },
     {
       "Package": {
@@ -6255,9 +5142,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.objectmodel\\4.3.0\\lib\\netstandard1.3\\System.ObjectModel.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.objectmodel\\4.3.0\\lib\\netstandard1.3\\System.ObjectModel.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.objectmodel\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.objectmodel\\4.3.0"
     },
     {
       "Package": {
@@ -6265,9 +5152,9 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.private.servicemodel\\4.7.0\\lib\\netstandard2.0\\System.Private.ServiceModel.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.private.servicemodel\\4.7.0\\lib\\netstandard2.0\\System.Private.ServiceModel.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.private.servicemodel\\4.7.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.private.servicemodel\\4.7.0"
     },
     {
       "Package": {
@@ -6275,7 +5162,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection\\4.3.0"
     },
     {
       "Package": {
@@ -6283,9 +5170,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.context\\5.0.0\\lib\\netstandard2.1\\System.Reflection.Context.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.context\\5.0.0\\lib\\netstandard2.1\\System.Reflection.Context.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.context\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.context\\5.0.0"
     },
     {
       "Package": {
@@ -6293,9 +5180,9 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.dispatchproxy\\4.5.0\\lib\\netcoreapp2.0\\System.Reflection.DispatchProxy.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.dispatchproxy\\4.5.0\\lib\\netcoreapp2.0\\System.Reflection.DispatchProxy.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.dispatchproxy\\4.5.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.dispatchproxy\\4.5.0"
     },
     {
       "Package": {
@@ -6303,9 +5190,9 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.emit\\4.7.0\\lib\\netcoreapp2.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.emit\\4.7.0\\lib\\netcoreapp2.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.emit\\4.7.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.emit\\4.7.0"
     },
     {
       "Package": {
@@ -6313,9 +5200,9 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\lib\\netcoreapp2.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\lib\\netcoreapp2.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0"
     },
     {
       "Package": {
@@ -6323,9 +5210,9 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\lib\\netcoreapp2.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\lib\\netcoreapp2.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0"
     },
     {
       "Package": {
@@ -6333,7 +5220,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.extensions\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.extensions\\4.3.0"
     },
     {
       "Package": {
@@ -6341,9 +5228,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\lib\\netstandard2.0\\System.Reflection.Metadata.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\lib\\netstandard2.0\\System.Reflection.Metadata.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.metadata\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.metadata\\5.0.0"
     },
     {
       "Package": {
@@ -6351,7 +5238,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.primitives\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.primitives\\4.3.0"
     },
     {
       "Package": {
@@ -6359,9 +5246,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\lib\\netstandard1.5\\System.Reflection.TypeExtensions.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\lib\\netstandard1.5\\System.Reflection.TypeExtensions.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0"
     },
     {
       "Package": {
@@ -6369,7 +5256,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0"
     },
     {
       "Package": {
@@ -6377,7 +5264,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime\\4.3.0"
     },
     {
       "Package": {
@@ -6385,9 +5272,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.caching\\5.0.0\\lib\\netstandard2.0\\System.Runtime.Caching.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime.caching\\5.0.0\\lib\\netstandard2.0\\System.Runtime.Caching.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.caching\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime.caching\\5.0.0"
     },
     {
       "Package": {
@@ -6395,9 +5282,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\lib\\netcoreapp2.0\\System.Runtime.CompilerServices.Unsafe.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\lib\\netcoreapp2.0\\System.Runtime.CompilerServices.Unsafe.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0"
     },
     {
       "Package": {
@@ -6405,7 +5292,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.extensions\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime.extensions\\4.3.0"
     },
     {
       "Package": {
@@ -6413,7 +5300,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.handles\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime.handles\\4.3.0"
     },
     {
       "Package": {
@@ -6421,7 +5308,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.interopservices\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime.interopservices\\4.3.0"
     },
     {
       "Package": {
@@ -6429,9 +5316,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\lib\\netstandard1.1\\System.Runtime.InteropServices.RuntimeInformation.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\lib\\netstandard1.1\\System.Runtime.InteropServices.RuntimeInformation.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0"
     },
     {
       "Package": {
@@ -6439,9 +5326,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\lib\\netstandard1.3\\System.Runtime.Numerics.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\lib\\netstandard1.3\\System.Runtime.Numerics.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.runtime.numerics\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.runtime.numerics\\4.3.0"
     },
     {
       "Package": {
@@ -6449,19 +5336,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\lib\\netstandard2.0\\System.Security.AccessControl.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\lib\\netstandard2.0\\System.Security.AccessControl.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.accesscontrol\\5.0.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Security.Claims",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.claims\\4.3.0\\lib\\netstandard1.3\\System.Security.Claims.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.claims\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.accesscontrol\\5.0.0"
     },
     {
       "Package": {
@@ -6469,7 +5346,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0"
     },
     {
       "Package": {
@@ -6477,9 +5354,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\lib\\netcoreapp3.0\\System.Security.Cryptography.Cng.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\lib\\netcoreapp3.0\\System.Security.Cryptography.Cng.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0"
     },
     {
       "Package": {
@@ -6487,7 +5364,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.csp\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.csp\\4.3.0"
     },
     {
       "Package": {
@@ -6495,7 +5372,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0"
     },
     {
       "Package": {
@@ -6503,19 +5380,19 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.openssl\\4.3.0\\lib\\netstandard1.6\\System.Security.Cryptography.OpenSsl.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.openssl\\4.3.0\\lib\\netstandard1.6\\System.Security.Cryptography.OpenSsl.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.openssl\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.openssl\\4.3.0"
     },
     {
       "Package": {
         "Id": "System.Security.Cryptography.Pkcs",
-        "Version": "6.0.0"
+        "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.0\\lib\\net6.0\\System.Security.Cryptography.Pkcs.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.pkcs\\5.0.0\\lib\\netcoreapp3.0\\System.Security.Cryptography.Pkcs.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.pkcs\\5.0.0"
     },
     {
       "Package": {
@@ -6523,9 +5400,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\lib\\netstandard1.3\\System.Security.Cryptography.Primitives.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\lib\\netstandard1.3\\System.Security.Cryptography.Primitives.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0"
     },
     {
       "Package": {
@@ -6533,9 +5410,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\lib\\netstandard2.0\\System.Security.Cryptography.ProtectedData.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\lib\\netstandard2.0\\System.Security.Cryptography.ProtectedData.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0"
     },
     {
       "Package": {
@@ -6543,7 +5420,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0"
     },
     {
       "Package": {
@@ -6551,9 +5428,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.xml\\5.0.0\\lib\\netstandard2.0\\System.Security.Cryptography.Xml.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.xml\\5.0.0\\lib\\netstandard2.0\\System.Security.Cryptography.Xml.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.cryptography.xml\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.cryptography.xml\\5.0.0"
     },
     {
       "Package": {
@@ -6561,19 +5438,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.permissions\\5.0.0\\lib\\net5.0\\System.Security.Permissions.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.permissions\\5.0.0\\lib\\net5.0\\System.Security.Permissions.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.permissions\\5.0.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Security.Principal",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.principal\\4.3.0\\lib\\netstandard1.0\\System.Security.Principal.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.principal\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.permissions\\5.0.0"
     },
     {
       "Package": {
@@ -6581,9 +5448,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\lib\\netstandard2.0\\System.Security.Principal.Windows.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\lib\\netstandard2.0\\System.Security.Principal.Windows.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.security.principal.windows\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.security.principal.windows\\5.0.0"
     },
     {
       "Package": {
@@ -6591,9 +5458,9 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.duplex\\4.7.0\\lib\\netstandard2.0\\System.ServiceModel.Duplex.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.duplex\\4.7.0\\lib\\netstandard2.0\\System.ServiceModel.Duplex.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.duplex\\4.7.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.duplex\\4.7.0"
     },
     {
       "Package": {
@@ -6601,9 +5468,9 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.http\\4.7.0\\lib\\netstandard2.0\\System.ServiceModel.Http.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.http\\4.7.0\\lib\\netstandard2.0\\System.ServiceModel.Http.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.http\\4.7.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.http\\4.7.0"
     },
     {
       "Package": {
@@ -6611,9 +5478,9 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.nettcp\\4.7.0\\lib\\netstandard2.0\\System.ServiceModel.NetTcp.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.nettcp\\4.7.0\\lib\\netstandard2.0\\System.ServiceModel.NetTcp.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.nettcp\\4.7.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.nettcp\\4.7.0"
     },
     {
       "Package": {
@@ -6621,10 +5488,10 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib\\netcoreapp2.1\\System.ServiceModel.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib\\netcoreapp2.1\\System.ServiceModel.Primitives.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib\\netcoreapp2.1\\System.ServiceModel.Primitives.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib\\netcoreapp2.1\\System.ServiceModel.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0"
     },
     {
       "Package": {
@@ -6632,9 +5499,9 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.security\\4.7.0\\lib\\netstandard2.0\\System.ServiceModel.Security.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.security\\4.7.0\\lib\\netstandard2.0\\System.ServiceModel.Security.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.security\\4.7.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.security\\4.7.0"
     },
     {
       "Package": {
@@ -6642,9 +5509,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.syndication\\5.0.0\\lib\\netstandard2.0\\System.ServiceModel.Syndication.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.syndication\\5.0.0\\lib\\netstandard2.0\\System.ServiceModel.Syndication.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.servicemodel.syndication\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.servicemodel.syndication\\5.0.0"
     },
     {
       "Package": {
@@ -6652,9 +5519,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0\\lib\\netstandard2.0\\System.ServiceProcess.ServiceController.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0\\lib\\netstandard2.0\\System.ServiceProcess.ServiceController.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0"
     },
     {
       "Package": {
@@ -6662,7 +5529,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.text.encoding\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.text.encoding\\4.3.0"
     },
     {
       "Package": {
@@ -6670,9 +5537,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\lib\\netstandard2.0\\System.Text.Encoding.CodePages.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\lib\\netstandard2.0\\System.Text.Encoding.CodePages.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0"
     },
     {
       "Package": {
@@ -6680,7 +5547,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0"
     },
     {
       "Package": {
@@ -6688,19 +5555,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.text.encodings.web\\5.0.0\\lib\\netcoreapp3.0\\System.Text.Encodings.Web.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.text.encodings.web\\5.0.0\\lib\\netcoreapp3.0\\System.Text.Encodings.Web.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.text.encodings.web\\5.0.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Text.Json",
-        "Version": "5.0.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.text.json\\5.0.2\\lib\\netcoreapp3.0\\System.Text.Json.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.text.json\\5.0.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.text.encodings.web\\5.0.0"
     },
     {
       "Package": {
@@ -6708,9 +5565,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\lib\\netstandard1.6\\System.Text.RegularExpressions.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\lib\\netstandard1.6\\System.Text.RegularExpressions.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.text.regularexpressions\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.text.regularexpressions\\4.3.0"
     },
     {
       "Package": {
@@ -6718,9 +5575,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.threading\\4.3.0\\lib\\netstandard1.3\\System.Threading.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.threading\\4.3.0\\lib\\netstandard1.3\\System.Threading.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.threading\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.threading\\4.3.0"
     },
     {
       "Package": {
@@ -6728,9 +5585,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.threading.accesscontrol\\5.0.0\\lib\\netstandard2.0\\System.Threading.AccessControl.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.threading.accesscontrol\\5.0.0\\lib\\netstandard2.0\\System.Threading.AccessControl.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.threading.accesscontrol\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.threading.accesscontrol\\5.0.0"
     },
     {
       "Package": {
@@ -6738,9 +5595,9 @@
         "Version": "4.7.1"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.threading.channels\\4.7.1\\lib\\netcoreapp3.0\\System.Threading.Channels.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.threading.channels\\4.7.1\\lib\\netcoreapp3.0\\System.Threading.Channels.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.threading.channels\\4.7.1"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.threading.channels\\4.7.1"
     },
     {
       "Package": {
@@ -6748,7 +5605,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.threading.tasks\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.threading.tasks\\4.3.0"
     },
     {
       "Package": {
@@ -6756,9 +5613,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib\\netstandard2.0\\System.Threading.Tasks.Dataflow.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib\\netstandard2.0\\System.Threading.Tasks.Dataflow.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0"
     },
     {
       "Package": {
@@ -6766,9 +5623,9 @@
         "Version": "4.5.4"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib\\netcoreapp2.1\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib\\netcoreapp2.1\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4"
     },
     {
       "Package": {
@@ -6776,7 +5633,7 @@
         "Version": "4.3.0"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.threading.timer\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.threading.timer\\4.3.0"
     },
     {
       "Package": {
@@ -6784,9 +5641,9 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib\\netcoreapp2.0\\_._"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib\\netcoreapp2.0\\_._"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.valuetuple\\4.5.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.valuetuple\\4.5.0"
     },
     {
       "Package": {
@@ -6794,9 +5651,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.windows.extensions\\5.0.0\\lib\\netcoreapp3.0\\System.Windows.Extensions.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.windows.extensions\\5.0.0\\lib\\netcoreapp3.0\\System.Windows.Extensions.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.windows.extensions\\5.0.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.windows.extensions\\5.0.0"
     },
     {
       "Package": {
@@ -6804,9 +5661,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\lib\\netstandard1.3\\System.Xml.ReaderWriter.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\lib\\netstandard1.3\\System.Xml.ReaderWriter.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.xml.readerwriter\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.xml.readerwriter\\4.3.0"
     },
     {
       "Package": {
@@ -6814,9 +5671,9 @@
         "Version": "4.3.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\lib\\netstandard1.3\\System.Xml.XDocument.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\lib\\netstandard1.3\\System.Xml.XDocument.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\system.xml.xdocument\\4.3.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\system.xml.xdocument\\4.3.0"
     },
     {
       "Package": {
@@ -6824,9 +5681,9 @@
         "Version": "22.10.52.8892"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath\\22.10.52.8892\\lib\\net6.0-windows7.0\\UiPath.Interop.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath\\22.10.52.8892\\lib\\net6.0-windows7.0\\UiPath.Interop.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath\\22.10.52.8892"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath\\22.10.52.8892"
     },
     {
       "Package": {
@@ -6834,35 +5691,9 @@
         "Version": "1.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib\\net5.0-windows7.0\\UiPath.Activities.RuntimeGovernance.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib\\net5.0-windows7.0\\UiPath.Activities.RuntimeGovernance.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.ConnectionClient",
-        "Version": "1.4.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.connectionclient\\1.4.1\\lib\\net5.0\\ConnectionClient.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.connectionclient\\1.4.1"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Excel.Activities",
-        "Version": "2.16.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib\\net5.0-windows7.0\\Microsoft.Office.Interop.Excel.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib\\net5.0-windows7.0\\Microsoft.Vbe.Interop.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib\\net5.0-windows7.0\\Office.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib\\net5.0-windows7.0\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib\\net5.0-windows7.0\\UiPath.Excel.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib\\net5.0-windows7.0\\UiPath.Excel.Activities.Package.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2\\lib\\net5.0-windows7.0\\UiPath.Excel.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.excel.activities\\2.16.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6"
     },
     {
       "Package": {
@@ -6870,26 +5701,9 @@
         "Version": "22.4.1"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.imageprocessing\\22.4.1\\lib\\net5.0-windows7.0\\UiPath.ImageProcessingInterop.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.imageprocessing\\22.4.1\\lib\\net5.0-windows7.0\\UiPath.ImageProcessingInterop.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.imageprocessing\\22.4.1"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Mail.Activities",
-        "Version": "1.18.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib\\net6.0-windows7.0\\Interop.Domino.UiPath.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib\\net6.0-windows7.0\\Microsoft.Office.Interop.Outlook.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib\\net6.0-windows7.0\\Microsoft.Office.Interop.Word.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib\\net6.0-windows7.0\\Office.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib\\net6.0-windows7.0\\UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib\\net6.0-windows7.0\\UiPath.Mail.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib\\net6.0-windows7.0\\UiPath.Mail.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib\\net6.0-windows7.0\\UiPath.MainSessionServer.Shared.dll"
-      ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.mail.activities\\1.18.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.imageprocessing\\22.4.1"
     },
     {
       "Package": {
@@ -6897,11 +5711,11 @@
         "Version": "3.11.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib\\net6.0-windows7.0\\UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib\\net6.0-windows7.0\\UiPath.OCR.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib\\net6.0-windows7.0\\UiPath.OCR.Core.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib\\net6.0-windows7.0\\UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib\\net6.0-windows7.0\\UiPath.OCR.Activities.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib\\net6.0-windows7.0\\UiPath.OCR.Core.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.ocr.activities\\3.11.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.ocr.activities\\3.11.0"
     },
     {
       "Package": {
@@ -6909,9 +5723,9 @@
         "Version": "2.13.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0\\lib\\net6.0-windows7.0\\UiPath.OCR.Contracts.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0\\lib\\net6.0-windows7.0\\UiPath.OCR.Contracts.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0"
     },
     {
       "Package": {
@@ -6919,21 +5733,21 @@
         "Version": "22.10.2"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.platform\\22.10.2\\lib\\net6.0-windows7.0\\UiPath.Platform.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.platform\\22.10.2\\lib\\net6.0-windows7.0\\UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.platform\\22.10.2"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.platform\\22.10.2"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "22.10.4"
+        "Version": "22.10.5"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.system.activities\\22.10.4\\lib\\net5.0-windows7.0\\UiPath.OrchestratorClient.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.system.activities\\22.10.4\\lib\\net5.0-windows7.0\\UiPath.System.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.system.activities\\22.10.4\\lib\\net5.0-windows7.0\\UiPath.System.Activities.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib\\net5.0-windows7.0\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib\\net5.0-windows7.0\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib\\net5.0-windows7.0\\UiPath.System.Activities.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.system.activities\\22.10.4"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.system.activities\\22.10.5"
     },
     {
       "Package": {
@@ -6941,9 +5755,9 @@
         "Version": "1.5.3"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib\\netstandard2.0\\TelemetryClient.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib\\netstandard2.0\\TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.telemetry.client\\1.5.3"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.telemetry.client\\1.5.3"
     },
     {
       "Package": {
@@ -6951,18 +5765,18 @@
         "Version": "22.10.5"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.CV.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.UIAutomationCore.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.Wizards.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.CV.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5\\lib\\net6.0-windows7.0\\UiPath.Wizards.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.5"
     },
     {
       "Package": {
@@ -6970,13 +5784,13 @@
         "Version": "3.6.0"
       },
       "Assemblies": [
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Core.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Core.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.dll"
       ],
-      "Path": "C:\\Users\\radu.bucur\\.nuget\\packages\\uipath.vision\\3.6.0"
+      "Path": "C:\\Users\\victor.corcodel\\.nuget\\packages\\uipath.vision\\3.6.0"
     }
   ]
 }
